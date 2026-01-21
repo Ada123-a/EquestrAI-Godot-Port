@@ -1,0 +1,11 @@
+{
+  "tag": "photofinish",
+  "name": "Photo Finish",
+  "color": "#8E5CC7",
+  "location": {
+    "id": "shopping_alley",
+    "icon": "Icon/icon.png"
+  }
+}
+
+

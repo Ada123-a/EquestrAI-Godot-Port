@@ -1,0 +1,88 @@
+{
+  "character_tag": "lemonhearts",
+  "default_location": "canterlot_plaza",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Morning tea and cheerful greetings to everypony.", "weight": 40 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Catching up with friends on the way to errands.", "weight": 35 },
+        { "location_id": "shopping_alley", "activity_hint": "Picking up party supplies and cute trinkets.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Enjoying the flowers and planning her next get-together.", "weight": 40 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Afternoon tea with acquaintances.", "weight": 35 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Being delightfully social.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "shopping_alley", "activity_hint": "Window shopping and chatting with boutique owners.", "weight": 40 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Treating herself and bringing a box for friends.", "weight": 35 },
+        { "location_id": "royal_garden", "activity_hint": "Relaxing stroll through the hedges.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "canterlot_plaza", "activity_hint": "Weekend errands and smiling hellos to everypony.", "weight": 45 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Brunch sweets with Canterlot friends.", "weight": 35 },
+        { "location_id": "royal_garden", "activity_hint": "Enjoying the sunshine among the statues.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Hosting a lighthearted afternoon tea.", "weight": 45 },
+        { "location_id": "shopping_alley", "activity_hint": "Helping friends pick outfits.", "weight": 35 },
+        { "location_id": "airship_harbor", "activity_hint": "Watching arrivals and waving enthusiastically.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Quiet stroll and planning the week.", "weight": 45 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Meeting friends before brunch.", "weight": 35 },
+        { "location_id": "canterlot_throne_room", "activity_hint": "Attending open court for civic interest.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Late lunch with companions.", "weight": 45 },
+        { "location_id": "shopping_alley", "activity_hint": "Leisurely browsing and small gifts for friends.", "weight": 35 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Enjoying the plaza ambience.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "time_slots": ["evening"],
+      "choices": [
+        { "location_id": "canterlot_plaza", "activity_hint": "Evening promenade, greeting acquaintances.", "weight": 40 },
+        { "location_id": "royal_garden", "activity_hint": "Sunset walk under the lanterns.", "weight": 30 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Picking up a late-night treat to share.", "weight": 30 }
+      ],
+      "priority": 0
+    }
+  ]
+}
+
+

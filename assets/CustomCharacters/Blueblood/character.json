@@ -1,0 +1,10 @@
+{
+  "tag": "blueblood",
+  "name": "Prince Blueblood",
+  "color": "#6C8CBD",
+  "location": {
+    "id": "royal_garden",
+    "icon": "Icon/icon.png"
+  }
+}
+

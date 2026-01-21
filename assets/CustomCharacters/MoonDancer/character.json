@@ -1,0 +1,10 @@
+{
+  "tag": "moondancer",
+  "name": "Moondancer",
+  "color": "#B19CD9",
+  "description": "A studious unicorn from Canterlot who was once Twilight's closest friend. After Twilight left for Ponyville without saying goodbye, she became bitter and reclusive.",
+  "location": {
+    "id": "golden_oak_library",
+    "icon": "icon/icon.png"
+  }
+}

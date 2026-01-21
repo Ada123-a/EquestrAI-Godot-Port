@@ -1,0 +1,9 @@
+{
+  "tag": "bigmac",
+  "name": "Big McIntosh",
+  "color": "#CC0000",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+}

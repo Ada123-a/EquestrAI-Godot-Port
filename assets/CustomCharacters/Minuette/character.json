@@ -1,0 +1,10 @@
+{
+  "tag": "minuette",
+  "name": "Minuette",
+  "color": "#6495ED",
+  "description": "One of Twilight's old friends from Canterlot, known for her incredibly bubbly and enthusiastic personality. A talented dentist who genuinely loves teeth and oral hygiene.",
+  "location": {
+    "id": "horsepital",
+    "icon": "icon/icon.png"
+  }
+}

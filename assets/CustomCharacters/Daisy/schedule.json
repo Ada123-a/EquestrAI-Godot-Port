@@ -1,0 +1,99 @@
+{
+  "character_tag": "daisy",
+  "default_location": "townhall",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Tending the square's planters with Roseluck and Lily Valley.", "weight": 55 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Collecting gentle blooms and chatting about pollinators.", "weight": 25 },
+        { "location_id": "golden_oak_library", "activity_hint": "Reviewing notes on seasonal flowers and remedies.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "carousel_boutique", "activity_hint": "Delivering floral accents and discussing color palettes with Rarity.", "weight": 40 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Tea, sweets, and flower-shaped decor with Pinkie.", "weight": 35 },
+        { "location_id": "townhall", "activity_hint": "Touching up public arrangements before evening.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "schoolhouse", "activity_hint": "Helping foals with a planter project and basic botany.", "weight": 45 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Guiding the Crusaders through a nature craft.", "weight": 35 },
+        { "location_id": "townhall", "activity_hint": "Checking the plaza after the midday bustle.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sweet_apple_acres", "activity_hint": "Foraging along orchard paths for wild daisies.", "weight": 40 },
+        { "location_id": "hay_burger", "activity_hint": "Quick bite and pony-watching at the square.", "weight": 30 },
+        { "location_id": "townhall", "activity_hint": "Coordinating weekend displays with friends.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "fluttershy_cottage", "activity_hint": "Peaceful garden time, coaxing shy blooms open.", "weight": 45 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Gathering stems and enjoying the countryside.", "weight": 35 },
+        { "location_id": "townhall", "activity_hint": "Setting up festive planters for weekend visitors.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Meeting friends over tea and daisies.", "weight": 40 },
+        { "location_id": "carousel_boutique", "activity_hint": "Browsing ribbons for bouquet wraps.", "weight": 30 },
+        { "location_id": "hay_burger", "activity_hint": "Casual lunch before evening plans.", "weight": 20 },
+        { "location_id": "townhall", "activity_hint": "Greeting visitors and refreshing displays.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "golden_oak_library", "activity_hint": "Quiet reading on herb lore and arrangements.", "weight": 40 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Gentle walk among butterflies and blooms.", "weight": 35 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Sketching bouquet ideas in the orchards.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "carousel_boutique", "activity_hint": "Tea with Rarity and nature-inspired mood boards.", "weight": 35 },
+        { "location_id": "townhall", "activity_hint": "Planning the week's themes with Roseluck and Lily Valley.", "weight": 35 },
+        { "location_id": "tea_shop", "activity_hint": "Unwinding with a fragrant blend and quiet conversation.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "time_slots": ["evening"],
+      "choices": [
+        { "location_id": "tea_shop", "activity_hint": "Evening tea and soft chatter with friends.", "weight": 40 },
+        { "location_id": "townhall", "activity_hint": "Stroll around the square as lanterns come on.", "weight": 30 },
+        { "location_id": "golden_oak_library", "activity_hint": "Returning borrowed books before closing.", "weight": 30 }
+      ],
+      "priority": 0
+    }
+  ]
+}
+
+

@@ -1,0 +1,10 @@
+{
+  "tag": "fleur",
+  "name": "Fleur de Lys",
+  "color": "#E6A8D7",
+  "location": {
+    "id": "shopping_alley",
+    "icon": "Icon/Icon.png"
+  }
+}
+

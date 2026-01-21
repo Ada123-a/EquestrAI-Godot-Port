@@ -1,0 +1,89 @@
+{
+  "character_tag": "lilyvalley",
+  "default_location": "townhall",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Arranging flower beds around town square and tidying public planters.", "weight": 55 },
+        { "location_id": "carousel_boutique", "activity_hint": "Delivering fresh blossoms for accessories and window displays.", "weight": 25 },
+        { "location_id": "golden_oak_library", "activity_hint": "Reviewing botanical notes and planning new garden layouts.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Preparing bouquets for civic events and checking seasonal displays.", "weight": 45 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Chatting with Pinkie about edible petals and party decor.", "weight": 30 },
+        { "location_id": "golden_oak_library", "activity_hint": "Sketching floral arrangements and reading about rare lilies.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "fluttershy_cottage", "activity_hint": "Learning gentle gardening tips and pollinator-friendly care.", "weight": 50 },
+        { "location_id": "schoolhouse", "activity_hint": "Helping with the school garden and teaching basic flower care.", "weight": 35 },
+        { "location_id": "townhall", "activity_hint": "Checking on the plaza planters after the midday crowd.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "carousel_boutique", "activity_hint": "Consulting with Rarity on floral color palettes.", "weight": 40 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Guiding the Crusaders through a simple planter project.", "weight": 30 },
+        { "location_id": "townhall", "activity_hint": "Organizing next week's flower market stalls.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "sweet_apple_acres", "activity_hint": "Foraging for wildflowers along orchard paths.", "weight": 40 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Quiet nature walk, noting seasonal blooms.", "weight": 35 },
+        { "location_id": "townhall", "activity_hint": "Setting up weekend displays for visitors.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Meeting friends over tea and flower-shaped sweets.", "weight": 40 },
+        { "location_id": "carousel_boutique", "activity_hint": "Browsing fabrics for bouquet wrap inspiration.", "weight": 30 },
+        { "location_id": "hay_burger", "activity_hint": "Casual lunch and pony-watching around the square.", "weight": 20 },
+        { "location_id": "townhall", "activity_hint": "Greeting visitors and tending pop-up planters.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "fluttershy_cottage", "activity_hint": "Relaxed garden time, encouraging shy blooms to open.", "weight": 50 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Strolling the orchards and sketching bouquet ideas.", "weight": 35 },
+        { "location_id": "golden_oak_library", "activity_hint": "Quiet reading on botany and arranging techniques.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "golden_oak_library", "activity_hint": "Planning next week's arrangements in peaceful silence.", "weight": 40 },
+        { "location_id": "carousel_boutique", "activity_hint": "Tea with Rarity and mood boarding floral looks.", "weight": 30 },
+        { "location_id": "townhall", "activity_hint": "Refreshing planters before the workweek.", "weight": 20 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Dropping off extra cuttings for the foals' projects.", "weight": 10 }
+      ],
+      "priority": 0
+    }
+  ]
+}
+

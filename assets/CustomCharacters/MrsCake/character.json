@@ -1,0 +1,9 @@
+{
+  "tag": "mrscake",
+  "name": "Mrs. Cake",
+  "color": "#FFB6C1",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+}

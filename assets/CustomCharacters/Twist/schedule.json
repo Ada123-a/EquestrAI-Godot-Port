@@ -1,0 +1,71 @@
+{
+  "character_tag": "twist",
+  "default_location": "sugarcube_corner",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "schoolhouse", "activity_hint": "Attending class and sharing homemade candy with classmates.", "weight": 70 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Picking up baking supplies before school.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Learning new candy recipes from Mrs. Cake.", "weight": 40 },
+        { "location_id": "townhall", "activity_hint": "Selling her homemade peppermint sticks to ponies.", "weight": 30 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Trying to hang out with Apple Bloom and feeling a bit left out.", "weight": 20 },
+        { "location_id": "golden_oak_library", "activity_hint": "Reading cookbooks about exotic candies.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sweet_apple_acres", "activity_hint": "Bringing Apple Bloom her favorite peppermint sticks.", "weight": 35 },
+        { "location_id": "carousel_boutique", "activity_hint": "Getting candy wrappers designed by Rarity.", "weight": 30 },
+        { "location_id": "hay_burger", "activity_hint": "Experimenting with savory-sweet flavor combinations.", "weight": 35 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Running her candy stand at the weekend market.", "weight": 60 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Making a big batch of candy for the weekend.", "weight": 40 }
+      ],
+      "priority": 1
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "schoolhouse", "activity_hint": "Teaching younger fillies how to make simple candies.", "weight": 40 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Bringing sugar-free treats for the animals.", "weight": 30 },
+        { "location_id": "rainbow_dash_outskirt", "activity_hint": "Watching the CMC's stunts while eating her own candy.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "location_id": "sugarcube_corner",
+      "activity_hint": "Having a candy-making marathon for the week ahead.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "golden_oak_library", "activity_hint": "Studying the science behind candy crystallization.", "weight": 40 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Spending quality time with Apple Bloom like old times.", "weight": 60 }
+      ],
+      "priority": 0
+    }
+  ]
+}

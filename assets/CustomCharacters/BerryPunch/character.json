@@ -1,0 +1,9 @@
+{
+  "tag": "berry",
+  "name": "Berry Punch",
+  "color": "#8B4B8B",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+} 

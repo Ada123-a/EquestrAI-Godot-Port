@@ -1,0 +1,11 @@
+{
+  "tag": "lilyvalley",
+  "name": "Lily Valley",
+  "color": "#E3A1C6",
+  "description": "Lily Valley is a earth pony with a raspberry coat and  light amber mane who adores delicate blossoms and tidy garden paths. She's attentive, a touch dramatic when things go awry, and happiest when arranging bouquets for friends or beautifying public spaces. She loves gossiping with her friends.",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+}
+

@@ -1,0 +1,9 @@
+{
+  "tag": "mayor",
+  "name": "Mayor Mare",
+  "color": "#8B4513",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+} 

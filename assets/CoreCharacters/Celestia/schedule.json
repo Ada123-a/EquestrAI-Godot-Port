@@ -1,0 +1,95 @@
+{
+  "character_tag": "cel",
+  "default_location": "canterlot_throne_room",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "canterlot_throne_room", "activity_hint": "Holding morning court and attending to royal duties.", "weight": 70 },
+        { "location_id": "royal_garden", "activity_hint": "Taking a peaceful morning stroll through the gardens.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday"],
+      "time_slots": ["afternoon"],
+      "location_id": "canterlot_throne_room",
+      "activity_hint": "Meeting with nobles and advisors.",
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_plaza", "activity_hint": "Making a public appearance in the city square.", "weight": 60 },
+        { "location_id": "shopping_alley", "activity_hint": "Inspecting the merchant district.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Wednesday"],
+      "time_slots": ["afternoon"],
+      "location_id": "royal_garden",
+      "activity_hint": "Hosting a garden party for visiting dignitaries.",
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "location_id": "donut_joe_shop",
+      "activity_hint": "Enjoying a rare moment of normalcy with coffee and donuts.",
+      "priority": 0
+    },
+    {
+      "days": ["Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_throne_room", "activity_hint": "Reviewing the week's petitions.", "weight": 50 },
+        { "location_id": "shopping_alley", "activity_hint": "Visiting local merchants and artisans.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "location_id": "canterlot_throne_room",
+      "activity_hint": "Holding open court for visitors from across Equestria.",
+      "priority": 10
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "location_id": "royal_garden",
+      "activity_hint": "Reflecting on the week's audiences in the tranquil gardens.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "donut_joe_shop", "activity_hint": "Having a quiet Sunday breakfast at Donut Joe's.", "weight": 50 },
+        { "location_id": "royal_garden", "activity_hint": "Tending to her personal garden section.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_plaza", "activity_hint": "Mingling with citizens during the weekly market.", "weight": 60 },
+        { "location_id": "shopping_alley", "activity_hint": "Browsing the shops on a leisurely afternoon.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "time_slots": ["evening"],
+      "choices": [
+        { "location_id": "canterlot_throne_room", "activity_hint": "Attending to evening petitions.", "weight": 40 },
+        { "location_id": "royal_garden", "activity_hint": "Lowering the sun from the garden pavilion.", "weight": 60 }
+      ],
+      "priority": 0
+    }
+  ]
+}

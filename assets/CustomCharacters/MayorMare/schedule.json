@@ -1,0 +1,73 @@
+{
+  "character_tag": "mayor",
+  "default_location": "townhall",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Reviewing town documents and planning the day's meetings.", "weight": 80 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Having a quick breakfast meeting with local business owners.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday"],
+      "time_slots": ["afternoon"],
+      "location_id": "townhall",
+      "activity_hint": "Holding town council meetings and addressing citizen concerns.",
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "location_id": "sweet_apple_acres",
+      "activity_hint": "Discussing agricultural policies with the Apple family.",
+      "priority": 0
+    },
+    {
+      "days": ["Wednesday"],
+      "time_slots": ["afternoon"],
+      "location_id": "carousel_boutique",
+      "activity_hint": "Planning town events and discussing decorations with Rarity.",
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "location_id": "horsepital",
+      "activity_hint": "Reviewing town health services and hospital funding.",
+      "priority": 0
+    },
+    {
+      "days": ["Friday"],
+      "time_slots": ["afternoon"],
+      "location_id": "golden_oak_library",
+      "activity_hint": "Consulting with Twilight about magical regulations and town safety.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "location_id": "townhall",
+      "activity_hint": "Catching up on weekend paperwork and emergency issues.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "location_id": "sugarcube_corner",
+      "activity_hint": "Attending community social events and mingling with citizens.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["any"],
+      "choices": [
+        { "location_id": "fluttershy_cottage", "activity_hint": "Relaxing and visiting with Fluttershy, discussing animal welfare policies.", "weight": 40 },
+        { "location_id": "townhall", "activity_hint": "Preparing for the upcoming week's agenda.", "weight": 60 }
+      ],
+      "priority": 0
+    }
+  ]
+} 

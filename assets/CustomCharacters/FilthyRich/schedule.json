@@ -1,0 +1,81 @@
+{
+  "character_tag": "filthyrich",
+  "default_location": "townhall",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Meeting municipal officials about permits and market events; keeping Barnyard Bargains aligned with town plans.", "weight": 45 },
+        { "location_id": "golden_oak_library", "activity_hint": "Reviewing contracts and correspondence in quiet; occasional research on market trends.", "weight": 25 },
+        { "location_id": "hay_burger", "activity_hint": "Quick breakfast while catching up with local merchants.", "weight": 15 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Coffee and a cordial word with townsponies to keep goodwill.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Following up on procurement for community fairs and vendor stalls.", "weight": 40 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Discussing seasonal supply contracts with the Apples.", "weight": 35 },
+        { "location_id": "carousel_boutique", "activity_hint": "Checking on specialty orders and displays for store promotions.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Logistics and paperwork for shipping and events.", "weight": 35 },
+        { "location_id": "hay_burger", "activity_hint": "Informal chats with delivery ponies and staff.", "weight": 30 },
+        { "location_id": "golden_oak_library", "activity_hint": "Quiet planning time for quarterly targets.", "weight": 20 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Community visibility and goodwill-building.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Coordinating vendor spots for weekend markets.", "weight": 40 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Checking produce quality and arranging bulk buys.", "weight": 35 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Grabbing a pastry while greeting customers in town.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Supporting or sponsoring afternoon community events.", "weight": 45 },
+        { "location_id": "carousel_boutique", "activity_hint": "Coordinating window displays and promotional tie-ins.", "weight": 30 },
+        { "location_id": "hay_burger", "activity_hint": "Casual bite with partners after market hours.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Light presence at the square; listening to townsponies' needs.", "weight": 40 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Friendly visit to confirm next week's deliveries.", "weight": 35 },
+        { "location_id": "golden_oak_library", "activity_hint": "Week-ahead planning with ledgers and notes.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Relaxed promenade; casual networking.", "weight": 35 },
+        { "location_id": "hay_burger", "activity_hint": "Treating Diamond Tiara or staff to a simple meal.", "weight": 30 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Sweet stop with acquaintances and customers.", "weight": 20 },
+        { "location_id": "carousel_boutique", "activity_hint": "Discussing a small charity showcase in the storefront.", "weight": 15 }
+      ],
+      "priority": 0
+    }
+  ]
+}
+
+

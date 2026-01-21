@@ -1,0 +1,61 @@
+{
+  "character_tag": "derpy",
+  "default_location": "townhall",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Sorting mail and preparing for deliveries.", "weight": 60 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Stopping for a pre-route muffin.", "weight": 15 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Dropping off early packages.", "weight": 15 },
+        { "location_id": "schoolhouse", "activity_hint": "Delivering mail to the school and chatting with Cheerilee.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "location_id": "sweet_apple_acres",
+      "activity_hint": "Delivering packages to the Apple family.",
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "location_id": "golden_oak_library",
+      "activity_hint": "Delivering mail to Twilight and occasionally crashing into shelves.",
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Delivering mail and enjoying a muffin break.", "weight": 70 },
+        { "location_id": "hay_burger", "activity_hint": "Delivering mail and trying their hay fries.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "location_id": "townhall",
+      "activity_hint": "Weekend mail shifts for special deliveries.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "location_id": "sugarcube_corner",
+      "activity_hint": "Buying muffins and socializing.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["any"],
+      "location_id": "fluttershy_cottage",
+      "activity_hint": "Relaxing day off, helping with animals.",
+      "priority": 0
+    }
+  ]
+} 

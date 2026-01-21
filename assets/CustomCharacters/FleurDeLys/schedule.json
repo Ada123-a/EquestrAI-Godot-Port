@@ -1,0 +1,57 @@
+{
+  "character_tag": "fleur",
+  "default_location": "shopping_alley",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "shopping_alley", "activity_hint": "Early fittings and boutique visits.", "weight": 60 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Photos and greetings with admirers.", "weight": 25 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Coffee with the fashion columnists.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Afternoon tea and networking.", "weight": 50 },
+        { "location_id": "shopping_alley", "activity_hint": "Hair and makeup appointments.", "weight": 30 },
+        { "location_id": "royal_garden", "activity_hint": "A graceful stroll and photo ops.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "shopping_alley", "activity_hint": "Finalizing looks with designers.", "weight": 50 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Meeting with event organizers.", "weight": 30 },
+        { "location_id": "royal_garden", "activity_hint": "Quiet inspiration among the hedges.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning", "afternoon"],
+      "choices": [
+        { "location_id": "canterlot_plaza", "activity_hint": "Public appearances at weekend events.", "weight": 50 },
+        { "location_id": "shopping_alley", "activity_hint": "Boutique exhibitions and signings.", "weight": 30 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Brunch with friends.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["any"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Relaxed afternoon among the statues.", "weight": 50 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Light social catch-ups.", "weight": 30 },
+        { "location_id": "shopping_alley", "activity_hint": "Browsing without the crowds.", "weight": 20 }
+      ],
+      "priority": 0
+    }
+  ]
+}
+

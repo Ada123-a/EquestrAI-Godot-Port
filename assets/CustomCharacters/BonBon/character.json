@@ -1,0 +1,9 @@
+{
+  "tag": "bonbon",
+  "name": "Bon Bon",
+  "color": "#F5DEB3",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+} 

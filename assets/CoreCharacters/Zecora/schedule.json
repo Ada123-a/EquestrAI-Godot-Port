@@ -1,0 +1,57 @@
+{
+  "character_tag": "zecora",
+  "default_location": "zecora_hut",
+  "schedules": [
+      {
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "time_slots": ["morning"],
+        "choices": [
+          { "location_id": "zecora_hut", "activity_hint": "Brewing potions and remedies.", "weight": 70 },
+          { "location_id": "townhall", "activity_hint": "Selling potions at the town market.", "weight": 30 }
+        ],
+        "priority": 0
+      },
+    {
+      "days": ["Monday"],
+      "time_slots": ["afternoon"],
+      "location_id": "zecora_hut",
+      "activity_hint": "Trading herbal remedies with Fluttershy.",
+      "priority": 0
+    },
+    {
+      "days": ["Wednesday"],
+      "time_slots": ["afternoon"],
+      "location_id": "golden_oak_library",
+      "activity_hint": "Sharing ancient wisdom with Twilight Sparkle.",
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday", "Friday"],
+      "time_slots": ["afternoon"],
+      "location_id": "zecora_hut",
+      "activity_hint": "Gathering herbs deeper in the Everfree Forest.",
+      "priority": 0
+    },
+      {
+        "days": ["Saturday"],
+        "time_slots": ["morning"],
+        "location_id": "zecora_hut",
+        "activity_hint": "Teaching Fluttershy and Twilight about rare herbs.",
+        "priority": 0
+      },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "location_id": "zecora_hut",
+      "activity_hint": "Meditating and communing with forest spirits.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["any"],
+      "location_id": "zecora_hut",
+      "activity_hint": "Writing mystical poetry and relaxing.",
+      "priority": 0
+    }
+  ]
+} 

@@ -1,0 +1,9 @@
+{
+  "tag": "carrot",
+  "name": "Carrot Top",
+  "color": "#FFA500",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+}

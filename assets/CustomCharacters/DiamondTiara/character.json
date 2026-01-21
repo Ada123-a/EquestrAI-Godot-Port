@@ -1,0 +1,10 @@
+{
+  "tag": "diamond",
+  "name": "Diamond Tiara",
+  "color": "#E6E6FA",
+  "type": "foal",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+} 

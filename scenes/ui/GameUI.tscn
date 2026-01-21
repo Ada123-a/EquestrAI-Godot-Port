@@ -1,0 +1,201 @@
+[gd_scene load_steps=3 format=3 uid="uid://game_ui_scene"]
+
+[ext_resource type="Texture2D" uid="uid://c7dpmkc3ghh8f" path="res://assets/UI/Map.webp" id="1_map_icon"]
+[ext_resource type="Theme" uid="uid://minimal_theme_ui" path="res://assets/UI/MinimalTheme.tres" id="2_theme"]
+[ext_resource type="Texture2D" uid="uid://settings_icon" path="res://assets/UI/Settings.webp" id="3_settings_icon"]
+[ext_resource type="Script" path="res://scripts/HoverTextureButton.gd" id="4_hover"]
+[ext_resource type="Texture2D" uid="uid://inventory_icon" path="res://assets/UI/Inventory.webp" id="5_inventory_icon"]
+[ext_resource type="Texture2D" uid="uid://bit_icon" path="res://assets/UI/Bit.webp" id="6_bit_icon"]
+[ext_resource type="StyleBox" uid="uid://bit_counter_bg" path="res://assets/UI/BitCounterBg.tres" id="7_bg"]
+
+[node name="GameUI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="TopBar" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 20.0
+offset_right = -20.0
+offset_bottom = 180.0
+grow_horizontal = 2
+theme_override_constants/separation = 20
+
+
+[node name="Spacer" type="Control" parent="TopBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="BitsDisplay" type="VBoxContainer" parent="TopBar"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+theme_override_constants/separation = -2
+alignment = 1
+
+[node name="BitMargin" type="MarginContainer" parent="TopBar/BitsDisplay"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 0
+
+[node name="BitIcon" type="TextureRect" parent="TopBar/BitsDisplay/BitMargin"]
+layout_mode = 2
+texture = ExtResource("6_bit_icon")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BitsLabel" type="Label" parent="TopBar/BitsDisplay"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(0.24, 0.15, 0.07, 1)
+theme_override_font_sizes/font_size = 18
+theme_override_styles/normal = ExtResource("7_bg")
+text = "100"
+horizontal_alignment = 1
+
+[node name="InventoryButton" type="TextureButton" parent="TopBar"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+tooltip_text = "Inventory"
+texture_normal = ExtResource("5_inventory_icon")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("4_hover")
+
+[node name="MapButton" type="TextureButton" parent="TopBar"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+tooltip_text = "Open Map"
+texture_normal = ExtResource("1_map_icon")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("4_hover")
+
+[node name="EndSceneButton" type="Button" parent="TopBar"]
+custom_minimum_size = Vector2(140, 40)
+layout_mode = 2
+text = "End Scene"
+
+[node name="SettingsButton" type="TextureButton" parent="TopBar"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+tooltip_text = "Main Menu / Settings"
+texture_normal = ExtResource("3_settings_icon")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("4_hover")
+
+[node name="LocationNavPanel" type="PanelContainer" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 260.0
+offset_bottom = 60.0
+theme = ExtResource("2_theme")
+
+[node name="NavMargin" type="MarginContainer" parent="LocationNavPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 14
+theme_override_constants/margin_top = 14
+theme_override_constants/margin_right = 14
+theme_override_constants/margin_bottom = 14
+
+[node name="NavVBox" type="VBoxContainer" parent="LocationNavPanel/NavMargin"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="HeaderLabel" type="Label" parent="LocationNavPanel/NavMargin/NavVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 0.9)
+theme_override_font_sizes/font_size = 20
+text = "Nearby Locations"
+
+[node name="LocationList" type="VBoxContainer" parent="LocationNavPanel/NavMargin/NavVBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 6
+
+[node name="EmptyLabel" type="Label" parent="LocationNavPanel/NavMargin/NavVBox"]
+layout_mode = 2
+visible = false
+text = "No nearby locations."
+horizontal_alignment = 1
+
+[node name="ScheduleLabel" type="Label" parent="LocationNavPanel/NavMargin/NavVBox"]
+layout_mode = 2
+autowrap_mode = 3
+text = "Schedule: No rolls yet."
+horizontal_alignment = 1
+
+[node name="ContextWarningPanel" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 62.0
+offset_bottom = 106.0
+offset_left = 20.0
+offset_right = -20.0
+grow_horizontal = 2
+
+[node name="ContextWarningMargin" type="MarginContainer" parent="ContextWarningPanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 6
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 6
+
+[node name="ContextWarningHBox" type="HBoxContainer" parent="ContextWarningPanel/ContextWarningMargin"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 8
+
+[node name="ContextWarningLabel" type="Label" parent="ContextWarningPanel/ContextWarningMargin/ContextWarningHBox"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Context nearing limit."
+autowrap_mode = 3
+
+[node name="ContextSummarizeButton" type="Button" parent="ContextWarningPanel/ContextWarningMargin/ContextWarningHBox"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(80, 32)
+text = "Summarize now"
+
+[node name="ContextWarningClose" type="Button" parent="ContextWarningPanel/ContextWarningMargin/ContextWarningHBox"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(40, 32)
+text = "X"
+
+[node name="ContextDebugLabel" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchor_left = 1.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+offset_left = -260.0
+offset_top = 108.0
+offset_right = -20.0
+offset_bottom = 140.0
+grow_horizontal = 0
+text = "Context: 0"
+horizontal_alignment = 2
+vertical_alignment = 1

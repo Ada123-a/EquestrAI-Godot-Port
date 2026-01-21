@@ -1,0 +1,120 @@
+{
+  "_global_base_size": 0.8,
+  "applebloom": 0.75,
+  "bigmac": 1.2,
+  "blueblood": 1.1,
+  "cel": {
+    "scale": 1.5,
+    "sprites": {
+      "amused": {
+        "clip_left": 0.15,
+        "clip_right": 0.8
+      },
+      "annoyed": {
+        "clip_left": 0.15,
+        "clip_right": 1.0
+      },
+      "curious": {
+        "clip_left": 0.0,
+        "clip_right": 0.75
+      },
+      "embarrassed": {
+        "clip_left": 0.15,
+        "clip_right": 0.85
+      },
+      "neutral": {
+        "clip_left": 0.15,
+        "clip_right": 0.75
+      },
+      "sitting": {
+        "clip_left": 0.0,
+        "clip_right": 0.89
+      }
+    }
+  },
+  "chrys": {
+    "scale": 1.6,
+    "sprites": {
+      "flirting": {
+        "clip_left": 0.0,
+        "clip_right": 0.8
+      }
+    }
+  },
+  "diamond": 0.75,
+  "discord": 1.5,
+  "donutjoe": 1.2,
+  "fancypants": 1.2,
+  "filthyrich": 1.1,
+  "granny": 0.9,
+  "luna": {
+    "scale": 1.3,
+    "sprites": {
+      "amused": {
+        "clip_left": 0.0,
+        "clip_right": 0.9
+      },
+      "angry": {
+        "clip_left": 0.1,
+        "clip_right": 1.0
+      },
+      "annoyed": {
+        "clip_left": 0.1,
+        "clip_right": 1.0
+      },
+      "bashful": {
+        "clip_left": 0.15,
+        "clip_right": 0.85
+      },
+      "blushing": {
+        "clip_left": 0.1,
+        "clip_right": 0.9
+      },
+      "disdain": {
+        "clip_left": 0.0,
+        "clip_right": 0.9
+      },
+      "hoof on chest": {
+        "clip_left": 0.15,
+        "clip_right": 1.0
+      },
+      "huzzah": {
+        "clip_left": 0.1,
+        "clip_right": 0.95
+      },
+      "neutral": {
+        "clip_left": 0.1,
+        "clip_right": 0.95
+      },
+      "pleased": {
+        "clip_left": 0.15,
+        "clip_right": 1.0
+      },
+      "proud": {
+        "clip_left": 0.1,
+        "clip_right": 0.95
+      },
+      "seductive": {
+        "clip_left": 0.15,
+        "clip_right": 1.0
+      },
+      "surprised": {
+        "clip_left": 0.15,
+        "clip_right": 0.85
+      },
+      "unimpressed": {
+        "clip_left": 0.1,
+        "clip_right": 0.9
+      },
+      "winking": {
+        "clip_left": 0.15,
+        "clip_right": 1.0
+      }
+    }
+  },
+  "scootaloo": 0.75,
+  "silverspoon": 0.75,
+  "spike": 0.75,
+  "sweetiebelle": 0.75,
+  "twist": 0.75
+}

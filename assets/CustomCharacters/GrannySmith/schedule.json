@@ -1,0 +1,87 @@
+{
+    "character_tag": "granny",
+    "default_location": "sweet_apple_acres",
+    "schedules": [
+        {
+            "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+            "time_slots": ["morning"],
+            "location_id": "sweet_apple_acres",
+            "activity_hint": "Preparing breakfast and checking on the apple trees",
+            "priority": 1
+        },
+        {
+            "days": ["monday", "tuesday", "thursday"],
+            "time_slots": ["afternoon"],
+            "location_id": "sweet_apple_acres",
+            "activity_hint": "Resting in her rocking chair on the porch",
+            "priority": 1
+        },
+        {
+            "days": ["wednesday"],
+            "time_slots": ["afternoon"],
+            "location_id": "hay_burger",
+            "activity_hint": "Having lunch with her old friends",
+            "priority": 1
+        },
+        {
+            "days": ["friday"],
+            "time_slots": ["afternoon"],
+            "location_id": "townhall",
+            "activity_hint": "Attending the senior ponies' social gathering",
+            "priority": 1
+        },
+        {
+            "days": ["saturday"],
+            "time_slots": ["morning"],
+            "choices": [
+                {
+                    "location_id": "sweet_apple_acres",
+                    "activity_hint": "Supervising the weekend apple sales",
+                    "weight": 70
+                },
+                {
+                    "location_id": "sugarcube_corner",
+                    "activity_hint": "Picking up some treats for the family",
+                    "weight": 30
+                }
+            ],
+            "priority": 1
+        },
+        {
+            "days": ["saturday"],
+            "time_slots": ["afternoon"],
+            "location_id": "cmc_clubhouse",
+            "activity_hint": "Telling stories to Apple Bloom and her friends",
+            "priority": 1
+        },
+        {
+            "days": ["sunday"],
+            "time_slots": ["morning"],
+            "location_id": "sweet_apple_acres",
+            "activity_hint": "Preparing the traditional Apple family Sunday brunch",
+            "priority": 1
+        },
+        {
+            "days": ["sunday"],
+            "time_slots": ["afternoon"],
+            "choices": [
+                {
+                    "location_id": "sweet_apple_acres",
+                    "activity_hint": "Taking her afternoon nap",
+                    "weight": 60
+                },
+                {
+                    "location_id": "fluttershy_cottage",
+                    "activity_hint": "Visiting Fluttershy to check on the animals",
+                    "weight": 20
+                },
+                {
+                    "location_id": "townhall",
+                    "activity_hint": "Taking a slow walk around town",
+                    "weight": 20
+                }
+            ],
+            "priority": 1
+        }
+    ]
+}

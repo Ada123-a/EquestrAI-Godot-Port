@@ -1,0 +1,43 @@
+{
+  "character_tag": "donutjoe",
+  "default_location": "donut_joe_shop",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning", "afternoon"],
+      "location_id": "donut_joe_shop",
+      "activity_hint": "Running the donut counter, brewing fresh coffee, and greeting customers.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning", "afternoon"],
+      "choices": [
+        { "location_id": "donut_joe_shop", "activity_hint": "Weekend rush at the shop.", "weight": 80 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Buying supplies at the market square.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "donut_joe_shop", "activity_hint": "Light morning hours; closing early.", "weight": 60 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Catching up with other café owners.", "weight": 20 },
+        { "location_id": "shopping_alley", "activity_hint": "Browsing cookware and ingredients.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "shopping_alley", "activity_hint": "Restocking flour and toppings for next week.", "weight": 60 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Chatting with regulars outside the shop.", "weight": 40 }
+      ],
+      "priority": 0
+    }
+  ]
+}
+
+

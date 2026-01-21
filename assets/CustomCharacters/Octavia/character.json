@@ -1,0 +1,9 @@
+{
+  "tag": "octavia",
+  "name": "Octavia Melody",
+  "color": "#9370DB",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+}

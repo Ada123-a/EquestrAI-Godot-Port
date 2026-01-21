@@ -1,0 +1,217 @@
+{
+  "neighbors": {
+    "airship_harbor": [
+      "canterlot_plaza"
+    ],
+    "apple_family_farm_bathtub": [
+      "apple_family_room"
+    ],
+    "apple_family_room": [
+      "apple_family_farm_bathtub",
+      "applejack_bedroom",
+      "sweet_apple_acres"
+    ],
+    "applejack_bedroom": [
+      "apple_family_room"
+    ],
+    "badlands": [
+      "changeling_hive"
+    ],
+    "barn": [
+      "sweet_apple_acres"
+    ],
+    "canterlot_cafe": [
+      "canterlot_plaza",
+      "shopping_alley"
+    ],
+    "canterlot_plaza": [
+      "canterlot_cafe",
+      "canterlot_train_station",
+      "shopping_alley",
+      "airship_harbor",
+      "canterlot_throne_room",
+      "royal_garden",
+      "donut_joe_shop"
+    ],
+    "canterlot_throne_room": [
+      "canterlot_plaza",
+      "celestia_bedroom",
+      "luna_bedroom"
+    ],
+    "canterlot_train_station": [
+      "canterlot_plaza"
+    ],
+    "carousel_boutique": [
+      "ponyville_market",
+      "rarity_bathroom",
+      "rarity_bedroom"
+    ],
+    "celestia_bedroom": [
+      "canterlot_throne_room"
+    ],
+    "changeling_hive": [
+      "badlands",
+      "changeling_hive_nursery",
+      "changeling_hive_throne_room"
+    ],
+    "changeling_hive_nursery": [
+      "changeling_hive"
+    ],
+    "changeling_hive_throne_room": [
+      "changeling_hive"
+    ],
+    "cmc_clubhouse": [
+      "row_of_apple_trees"
+    ],
+    "donut_joe_shop": [
+      "shopping_alley",
+      "canterlot_plaza"
+    ],
+    "dream_realm": [],
+    "evening_sky_front_of_cloudominium": [
+      "ponyville_outskirts",
+      "rainbow_dash_living_room",
+      "rainbow_dash_bedroom"
+    ],
+    "everfree_forest": [
+      "zecora_hut"
+    ],
+    "fluttershy_bathroom": [
+      "fluttershy_cottage_inside"
+    ],
+    "fluttershy_bedroom": [
+      "fluttershy_cottage_inside"
+    ],
+    "fluttershy_cottage": [
+      "fluttershy_cottage_inside",
+      "ponyville_outskirts"
+    ],
+    "fluttershy_cottage_inside": [
+      "fluttershy_cottage",
+      "fluttershy_bathroom",
+      "fluttershy_bedroom"
+    ],
+    "golden_oak_bathtub": [
+      "golden_oak_interior"
+    ],
+    "golden_oak_guestroom": [
+      "golden_oak_interior"
+    ],
+    "golden_oak_interior": [
+      "twilight_bedroom",
+      "golden_oak_guestroom",
+      "golden_oak_bathtub",
+      "golden_oaks_library"
+    ],
+    "golden_oaks_library": [
+      "ponyville_main_square",
+      "golden_oak_interior"
+    ],
+    "hay_burger": [
+      "ponyville_market"
+    ],
+    "hot_air_balloon_flying": [],
+    "inside_hot_air_balloon": [],
+    "lake": [
+      "ponyville_outskirts"
+    ],
+    "luna_bedroom": [
+      "canterlot_throne_room"
+    ],
+    "pinkie_pie_bathroom": [
+      "pinkie_pie_bedroom"
+    ],
+    "pinkie_pie_bedroom": [
+      "sugarcube_corner",
+      "pinkie_pie_bathroom"
+    ],
+    "ponyville_general": [
+      "ponyville_outskirts"
+    ],
+    "ponyville_hospital": [
+      "ponyville_main_square"
+    ],
+    "ponyville_main_square": [
+      "ponyville_market",
+      "ponyville_town_hall",
+      "train_station",
+      "golden_oaks_library",
+      "ponyville_schoolhouse"
+    ],
+    "ponyville_market": [
+      "carousel_boutique",
+      "hay_burger",
+      "ponyville_main_square",
+      "tea_shop",
+      "sugarcube_corner",
+      "ponyville_outskirts"
+    ],
+    "ponyville_outskirts": [
+      "sweet_apple_acres",
+      "evening_sky_front_of_cloudominium",
+      "fluttershy_cottage",
+      "lake",
+      "trixie_wagon",
+      "ponyville_general",
+      "ponyville_market"
+    ],
+    "ponyville_schoolhouse": [
+      "ponyville_main_square",
+      "ponyville_schoolhouse_interior"
+    ],
+    "ponyville_schoolhouse_interior": [
+      "ponyville_schoolhouse"
+    ],
+    "ponyville_town_hall": [
+      "ponyville_main_square"
+    ],
+    "rainbow_dash_bedroom": [
+      "evening_sky_front_of_cloudominium"
+    ],
+    "rainbow_dash_living_room": [
+      "evening_sky_front_of_cloudominium"
+    ],
+    "rarity_bathroom": [
+      "carousel_boutique"
+    ],
+    "rarity_bedroom": [
+      "carousel_boutique"
+    ],
+    "row_of_apple_trees": [
+      "sweet_apple_acres",
+      "cmc_clubhouse"
+    ],
+    "royal_garden": [
+      "canterlot_plaza"
+    ],
+    "shopping_alley": [
+      "canterlot_plaza"
+    ],
+    "sugarcube_corner": [
+      "ponyville_market",
+      "pinkie_pie_bedroom"
+    ],
+    "sweet_apple_acres": [
+      "apple_family_room",
+      "barn",
+      "row_of_apple_trees",
+      "ponyville_outskirts"
+    ],
+    "tea_shop": [
+      "ponyville_market"
+    ],
+    "train_station": [
+      "ponyville_main_square"
+    ],
+    "trixie_wagon": [
+      "ponyville_outskirts"
+    ],
+    "twilight_bedroom": [
+      "golden_oak_interior"
+    ],
+    "user_house": [],
+    "zecora_hut": [
+      "everfree_forest"
+    ]
+  }
+}

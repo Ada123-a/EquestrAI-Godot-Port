@@ -1,0 +1,9 @@
+{
+  "tag": "lyra",
+  "name": "Lyra Heartstrings",
+  "color": "#99FFCC",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+} 

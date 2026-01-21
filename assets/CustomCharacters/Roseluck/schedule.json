@@ -1,0 +1,87 @@
+{
+  "character_tag": "roseluck",
+  "default_location": "townhall",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Tending to the town's flower beds and public garden displays.", "weight": 60 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Collecting wildflowers and checking on the orchard's apple blossoms.", "weight": 25 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Gathering flowers from Fluttershy's garden and learning about flower care.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Creating floral arrangements for town events and maintaining public spaces.", "weight": 50 },
+        { "location_id": "carousel_boutique", "activity_hint": "Helping Rarity with floral accessories and discussing garden-inspired fashion.", "weight": 30 },
+        { "location_id": "golden_oak_library", "activity_hint": "Researching rare flower species and botanical care techniques.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Discussing edible flower decorations with Pinkie Pie for parties and events.", "weight": 60 },
+        { "location_id": "schoolhouse", "activity_hint": "Teaching young ponies about flowers and helping with school garden projects.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "fluttershy_cottage", "activity_hint": "Learning about flower-friendly insects and sustainable gardening practices.", "weight": 50 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Helping the Cutie Mark Crusaders with their nature and gardening projects.", "weight": 30 },
+        { "location_id": "townhall", "activity_hint": "Planning seasonal flower displays and coordinating with town officials.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "sweet_apple_acres", "activity_hint": "Exploring the countryside for seasonal wildflowers and enjoying nature.", "weight": 40 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Having peaceful conversations about nature and animal-friendly gardening.", "weight": 35 },
+        { "location_id": "townhall", "activity_hint": "Preparing weekend event decorations and community flower displays.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Socializing with friends and enjoying weekend treats while discussing gardening.", "weight": 40 },
+        { "location_id": "carousel_boutique", "activity_hint": "Browsing for inspiration and chatting with Rarity about artistic creativity.", "weight": 30 },
+        { "location_id": "hay_burger", "activity_hint": "Taking a casual lunch break and meeting other ponies in town.", "weight": 20 },
+        { "location_id": "townhall", "activity_hint": "Participating in weekend community events and flower shows.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "fluttershy_cottage", "activity_hint": "Enjoying peaceful nature walks and identifying wild plants with Fluttershy.", "weight": 50 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Relaxing in the apple orchards and sketching flower arrangement ideas.", "weight": 35 },
+        { "location_id": "golden_oak_library", "activity_hint": "Quietly reading gardening books and botanical journals.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "golden_oak_library", "activity_hint": "Reading about botany and garden design for personal enrichment.", "weight": 40 },
+        { "location_id": "carousel_boutique", "activity_hint": "Having tea with Rarity and discussing artistic inspiration from nature.", "weight": 30 },
+        { "location_id": "townhall", "activity_hint": "Planning the upcoming week's floral themes and seasonal displays.", "weight": 20 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Checking on any ongoing garden projects with the young ponies.", "weight": 10 }
+      ],
+      "priority": 0
+    }
+  ]
+}

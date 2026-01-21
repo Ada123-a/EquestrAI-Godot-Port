@@ -1,0 +1,11 @@
+{
+  "tag": "drone",
+  "name": "Changeling Drone",
+  "color": "#565656",
+  "description": "A changeling drone for Queen Chrysalis.",
+  "type": "changeling",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+} 

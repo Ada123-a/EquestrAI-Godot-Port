@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://inventory_slot_component"]
+
+[ext_resource type="Script" path="res://scenes/ui/components/InventorySlot.gd" id="1_slot_script"]
+[ext_resource type="Theme" uid="uid://minimal_theme_ui" path="res://assets/UI/MinimalTheme.tres" id="2_theme"]
+
+[node name="InventorySlot" type="PanelContainer"]
+custom_minimum_size = Vector2(80, 80)
+theme = ExtResource("2_theme")
+script = ExtResource("1_slot_script")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+tooltip_text = "Item"
+
+[node name="Margin" type="MarginContainer" parent="."]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="Icon" type="TextureRect" parent="Margin"]
+layout_mode = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="StackLabel" type="Label" parent="."]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+text = "1"
+horizontal_alignment = 2
+vertical_alignment = 2

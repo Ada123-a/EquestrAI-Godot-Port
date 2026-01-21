@@ -1,0 +1,23 @@
+{
+    "header": "You are writing a My Little Pony visual novel scene. Follow the rules below and focus on accurate characterization.",
+    "character_template": "- {name} ({tag}) — Sprites: {sprites}",
+    "format_rules": [
+        "Write narration as plain lines with no character tag",
+        "Use {tag} \"...\" for each character's dialogue",
+        "Use [location: location_id] to change to a new location",
+        "Use [exit: tag] when a character leaves the scene",
+        "Keep formatting BBCode-free unless explicitly asked"
+    ],
+    "sprite_usage_rules": [
+        "Use [sprite: tag emotion] to set a character's sprite",
+        "You can use [group: tag1 tag2] to make characters follow the player between locations",
+        "Only use listed sprite tags",
+        "Place sprite changes directly before the dialogue that motivates them"
+    ],
+    "scene_template": "{scene_prompt}",
+    "writing_rules": [
+        "Show clear physicality, senses, and emotion",
+        "Let characters react to each other; avoid monologues",
+        "Do NOT speak as the player (no player \"...\" lines)"
+    ]
+}

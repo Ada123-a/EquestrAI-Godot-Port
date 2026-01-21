@@ -1,0 +1,68 @@
+{
+  "character_tag": "berry",
+  "default_location": "sugarcube_corner",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Helping with morning beverage preparations and sampling new flavors.", "weight": 60 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Collecting fresh apples for cider making.", "weight": 30 },
+        { "location_id": "townhall", "activity_hint": "Discussing beverage permits and festival planning.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "location_id": "sweet_apple_acres",
+      "activity_hint": "Working on cider recipes and taste-testing with the Apple family.",
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "location_id": "sugarcube_corner",
+      "activity_hint": "Experimenting with new punch recipes and party beverages.",
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "location_id": "townhall",
+      "activity_hint": "Organizing community events and beverage catering.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "location_id": "sugarcube_corner",
+      "activity_hint": "Preparing special weekend drinks and party supplies.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Attending community gatherings and social events.", "weight": 50 },
+        { "location_id": "carousel_boutique", "activity_hint": "Discussing party decorations with Rarity.", "weight": 30 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Hosting informal tasting sessions.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "location_id": "sweet_apple_acres",
+      "activity_hint": "Enjoying a relaxing morning walk through the orchards.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "location_id": "fluttershy_cottage",
+      "activity_hint": "Having a quiet afternoon tea and sharing stories.",
+      "priority": 0
+    }
+  ]
+} 

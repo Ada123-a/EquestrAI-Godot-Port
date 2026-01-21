@@ -1,0 +1,9 @@
+{
+    "tag": "granny",
+    "name": "Granny Smith",
+    "color": "#90EE90",
+    "location": {
+        "id": "townhall",
+        "icon": "icon/icon.png"
+    }
+}

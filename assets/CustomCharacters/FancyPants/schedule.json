@@ -1,0 +1,56 @@
+{
+  "character_tag": "fancypants",
+  "default_location": "canterlot_plaza",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "canterlot_plaza", "activity_hint": "Greeting acquaintances and reading the paper.", "weight": 60 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Coffee and society pages.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "shopping_alley", "activity_hint": "Browsing bespoke tailors and boutiques.", "weight": 50 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Meeting patrons for afternoon tea.", "weight": 30 },
+        { "location_id": "royal_garden", "activity_hint": "A refined stroll among the hedges.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Discussing charity galas with friends.", "weight": 50 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Public appearances and polite conversation.", "weight": 30 },
+        { "location_id": "shopping_alley", "activity_hint": "Commissioning new attire.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning", "afternoon"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Weekend garden promenade.", "weight": 50 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Hosting a leisurely brunch.", "weight": 30 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Seen about town.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["any"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Quiet reflection among the statues.", "weight": 50 },
+        { "location_id": "shopping_alley", "activity_hint": "Casual window shopping.", "weight": 30 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Catching up with acquaintances.", "weight": 20 }
+      ],
+      "priority": 0
+    }
+  ]
+}
+

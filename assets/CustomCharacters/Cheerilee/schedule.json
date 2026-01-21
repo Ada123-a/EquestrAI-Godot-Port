@@ -1,0 +1,85 @@
+{
+  "character_tag": "cheerilee",
+  "default_location": "schoolhouse",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "location_id": "schoolhouse",
+      "activity_hint": "Teaching classes and supervising the young ponies during school hours.",
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "schoolhouse", "activity_hint": "Grading papers and preparing lessons for the next day.", "weight": 50 },
+        { "location_id": "golden_oak_library", "activity_hint": "Researching educational materials and borrowing books for class.", "weight": 30 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Taking a well-deserved break and socializing with other ponies.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Attending education committee meetings with Mayor Mare.", "weight": 60 },
+        { "location_id": "schoolhouse", "activity_hint": "Organizing classroom materials and planning activities.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "golden_oak_library", "activity_hint": "Collaborating with Twilight on educational programs.", "weight": 50 },
+        { "location_id": "schoolhouse", "activity_hint": "Preparing for parent-teacher conferences.", "weight": 30 },
+        { "location_id": "carousel_boutique", "activity_hint": "Commissioning costumes for the school play.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "schoolhouse", "activity_hint": "Preparing weekend activities and cleaning the classroom.", "weight": 40 },
+        { "location_id": "golden_oak_library", "activity_hint": "Personal reading and continuing education.", "weight": 30 },
+        { "location_id": "hay_burger", "activity_hint": "Enjoying a leisurely weekend breakfast.", "weight": 20 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Learning about animals for nature class lessons.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Participating in community events and educational outreach.", "weight": 40 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Socializing with other ponies and enjoying weekend treats.", "weight": 30 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Checking on the CMC's projects and offering guidance.", "weight": 20 },
+        { "location_id": "golden_oak_library", "activity_hint": "Quiet study time and lesson planning.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "golden_oak_library", "activity_hint": "Peaceful reading and personal development.", "weight": 50 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Enjoying nature and relaxing with animals.", "weight": 30 },
+        { "location_id": "schoolhouse", "activity_hint": "Final preparations for the upcoming school week.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Attending community gatherings and staying connected with parents.", "weight": 40 },
+        { "location_id": "carousel_boutique", "activity_hint": "Personal shopping and chatting with Rarity about student projects.", "weight": 30 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Relaxing with a book and some tea.", "weight": 20 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Visiting the Apple family and discussing Apple Bloom's progress.", "weight": 10 }
+      ],
+      "priority": 0
+    }
+  ]
+} 

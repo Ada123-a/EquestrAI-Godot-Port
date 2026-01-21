@@ -1,0 +1,10 @@
+{
+  "tag": "starlight",
+  "name": "Starlight Glimmer",
+  "color": "#9D72B8",
+  "description": "This version of Starlight Glimmer is still the mayor of Our Town and advocates for 'true equality.' Her cutie mark is an equal sign. She came to Ponyville to visit, preach her ideology, and see if she can poach ponies for her town. Very important: She initially does not know the ponies of Ponyville, and they do not know her.",
+  "location": {
+    "id": "townhall", 
+    "icon": "icon/icon.png"
+  }
+} 

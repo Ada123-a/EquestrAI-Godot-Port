@@ -1,0 +1,78 @@
+{
+  "character_tag": "applebloom",
+  "default_location": "cmc_clubhouse",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "location_id": "schoolhouse",
+      "activity_hint": "Attending school with the other fillies and colts.",
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "cmc_clubhouse", "activity_hint": "Meeting with Sweetie Belle and Scootaloo for CMC activities.", "weight": 50 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Helping with light farm chores after school.", "weight": 30 },
+        { "location_id": "hay_burger", "activity_hint": "Getting a snack with the other CMC members.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "golden_oak_library", "activity_hint": "Doing homework and research for CMC projects.", "weight": 60 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Working on a special project with her friends.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Getting treats and playing with friends.", "weight": 50 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Planning the next cutie mark adventure.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "sweet_apple_acres", "activity_hint": "Helping with weekend farm work.", "weight": 60 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Weekend CMC meeting.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "cmc_clubhouse", "activity_hint": "Adventure time with Sweetie Belle and Scootaloo.", "weight": 40 },
+        { "location_id": "townhall", "activity_hint": "Exploring town and maybe causing some harmless mischief.", "weight": 30 },
+        { "location_id": "zecora_hut", "activity_hint": "Visiting Zecora for potions or advice.", "weight": 20 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Helping with animal care and learning about creatures.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "location_id": "sweet_apple_acres",
+      "activity_hint": "Family time and helping with Sunday farm duties.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "cmc_clubhouse", "activity_hint": "Relaxing and planning for the week ahead.", "weight": 50 },
+        { "location_id": "carousel_boutique", "activity_hint": "Visiting Sweetie Belle and maybe getting fashion advice.", "weight": 30 },
+        { "location_id": "rainbow_dash_outskirt", "activity_hint": "Practicing flying attempts or playing outdoors.", "weight": 20 }
+      ],
+      "priority": 0
+    }
+  ]
+} 

@@ -1,0 +1,85 @@
+{
+  "character_tag": "discord",
+  "default_location": "fluttershy_cottage",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Replacing frosting with soap bubbles and getting into general mischief.", "weight": 60 },
+        { "location_id": "schoolhouse", "activity_hint": "He scribbles on the chalkboard, but the drawings leap off and chase students around like living doodles.", "weight": 25 },
+        { "location_id": "townhall", "activity_hint": "He delivers a mayoral address, but each sentence turns into literal objects that bounce around the hall.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "hay_burger", "activity_hint": "Manipulating food and causing them to get into troubles with customers.", "weight": 40 },
+        { "location_id": "carousel_boutique", "activity_hint": "Busy causing all sorts of problems by manipulating mannequins.", "weight": 30 },
+        { "location_id": "golden_oak_library", "activity_hint": "Reciting random passages aloud while the words float from the pages and chase ponies around.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Making sweets barbershop quartets while dancing across tables, refusing to let anyone actually eat them.", "weight": 50 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Transforming apple buckets into slot machines, making every harvest a gamble of fruit, frogs, or fireworks.", "weight": 30 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Gardening, but flowers sprout wings and flutter away instead of blooming where they’re planted.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "hay_burger", "activity_hint": "Taste-testing every item on the menu at once by fusing them into one monstrous, floating super meal.", "weight": 60 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Making pastries come alive to dance around, insisting it’s the next big entertainment trend.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Giving an overly dramatic public speech", "weight": 50 },
+        { "location_id": "hay_burger", "activity_hint": "Actually having a normal day until he is spotted.", "weight": 30 },
+        { "location_id": "horsepital", "activity_hint": "Parading as a doctor, declaring absurd illnesses and making medical tools dance through the halls.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sweet_apple_acres", "activity_hint": "Trying to help out, but still causing some mischief unintentially.", "weight": 40 },
+		{ "location_id": "everfree_forest", "activity_hint": "Visiting the newly relocated Hive and finding them very cute.", "weight": 20 },
+        { "location_id": "carousel_boutique", "activity_hint": "Enjoying a somewhat normal spa day, but still causing slight mischief.", "weight": 10 },
+        { "location_id": "rainbow_dash_outskirt", "activity_hint": "Bringing Button a healthy lunch and checking his homework.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "sweet_apple_acres", "activity_hint": "Cleaning up some of the chaos residue he may have left behind.", "weight": 50 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Enjoying some sweets without causing any particular mayhem.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "golden_oak_library", "activity_hint": "Not causing any havoc during a visit to Twilight.", "weight": 40 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Enjoying tea with Fluttershy.", "weight": 30 },
+        { "location_id": "hay_burger", "activity_hint": "Grabbing a normal bite to eat.", "weight": 30 }
+      ],
+      "priority": 0
+    }
+  ]
+}

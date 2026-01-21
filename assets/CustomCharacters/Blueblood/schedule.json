@@ -1,0 +1,57 @@
+{
+  "character_tag": "blueblood",
+  "default_location": "royal_garden",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Morning constitutional through the royal grounds.", "weight": 60 },
+        { "location_id": "canterlot_plaza", "activity_hint": "A brief public appearance.", "weight": 25 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Espresso and social gazing.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Loitering near the statues, looking important.", "weight": 50 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Meeting minor nobles and courtiers.", "weight": 30 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Being seen on the main boulevard.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Sampling pastries and making remarks.", "weight": 45 },
+        { "location_id": "royal_garden", "activity_hint": "Avoiding responsibilities gracefully.", "weight": 35 },
+        { "location_id": "shopping_alley", "activity_hint": "Tailor consultations for ceremonial wear.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning", "afternoon"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Weekend promenades among Canterlot's elite.", "weight": 50 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Waving to admirers (selectively).", "weight": 30 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Brunch with other nobles.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["any"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "A calm day avoiding obligations.", "weight": 50 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Quiet table, sunglasses indoors.", "weight": 25 },
+        { "location_id": "shopping_alley", "activity_hint": "Browsing cufflinks and lapel pins.", "weight": 25 }
+      ],
+      "priority": 0
+    }
+  ]
+}
+

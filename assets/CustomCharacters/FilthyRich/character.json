@@ -1,0 +1,12 @@
+{
+  "tag": "filthyrich",
+  "name": "Filthy Rich",
+  "color": "#B8860B",
+  "description": "Owner of Barnyard Bargains and prominent Ponyville businessman. Filthy Rich is Diamond Tiara's father—polite, pragmatic, and focused on community ties and commerce.",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+}
+
+

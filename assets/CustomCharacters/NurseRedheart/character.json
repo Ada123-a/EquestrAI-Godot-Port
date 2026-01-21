@@ -1,0 +1,9 @@
+{
+  "tag": "redheart",
+  "name": "Nurse Redheart",
+  "color": "#FF5A5A",
+  "location": {
+    "id": "horsepital",
+    "icon": "Icon/icon.png"
+  }
+}

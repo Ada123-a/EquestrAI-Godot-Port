@@ -1,0 +1,10 @@
+{
+  "tag": "applebloom",
+  "name": "Apple Bloom",
+  "color": "#FFD700",
+  "type": "foal",
+  "location": {
+    "id": "cmc_clubhouse",
+    "icon": "icon/icon.png"
+  }
+} 

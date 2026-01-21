@@ -1,0 +1,506 @@
+{
+  "events": {
+    "Quick Start": {
+      "actions": [
+        {
+          "location_id": "inside_train",
+          "type": "change_location"
+        },
+        {
+          "speaker_id": "",
+          "text": "The rhythmic clatter of the train wheels sets a steady tempo against the silence of your compartment.\n\nOutside, the vibrant landscape of Equestria blurs past—rolling green hills and distant peaks.\n\nSoon... very soon, you'll arrive in Ponyville.\n\nCaught in a moment of anticipation, your gaze drifts to the window pane, studying the face staring back at you.\n\nThe ",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "actions": [
+                {
+                  "field": "species",
+                  "show_editor": false,
+                  "type": "edit_persona",
+                  "value": "pony"
+                },
+                {
+                  "speaker_id": "",
+                  "text": "Your eyes trace over your own reflected features, following the ",
+                  "type": "dialogue"
+                },
+                {
+                  "options": [
+                    {
+                      "actions": [
+                        {
+                          "field": "sex",
+                          "show_editor": false,
+                          "type": "edit_persona",
+                          "value": "male"
+                        },
+                        {
+                          "checkpoint_id": "after_pony_sex_selection",
+                          "type": "return_to_checkpoint"
+                        }
+                      ],
+                      "label": "strong, angular curve of your muzzle"
+                    },
+                    {
+                      "actions": [
+                        {
+                          "field": "sex",
+                          "show_editor": false,
+                          "type": "edit_persona",
+                          "value": "female"
+                        },
+                        {
+                          "checkpoint_id": "after_pony_sex_selection",
+                          "type": "return_to_checkpoint"
+                        }
+                      ],
+                      "label": "soft, gentle slope of your muzzle"
+                    }
+                  ],
+                  "prompt": "",
+                  "type": "branch"
+                },
+                {
+                  "checkpoint_id": "after_pony_sex_selection",
+                  "type": "create_checkpoint"
+                },
+                {
+                  "seamless": true,
+                  "speaker_id": "",
+                  "text": " before you tilt your head, examining the rest of your reflection. \n\n",
+                  "type": "dialogue"
+                },
+                {
+                  "options": [
+                    {
+                      "actions": [
+                        {
+                          "field": "race",
+                          "show_editor": false,
+                          "type": "edit_persona",
+                          "value": "unicorn"
+                        },
+                        {
+                          "checkpoint_id": "after_pony_species_selection",
+                          "type": "return_to_checkpoint"
+                        }
+                      ],
+                      "label": "horn glimmers faintly"
+                    },
+                    {
+                      "actions": [
+                        {
+                          "field": "race",
+                          "show_editor": false,
+                          "type": "edit_persona",
+                          "value": "pegasus"
+                        },
+                        {
+                          "type": "set_variable",
+                          "value": false,
+                          "var_name": "flight_capable",
+                          "var_type": "bool"
+                        },
+                        {
+                          "checkpoint_id": "after_pony_species_selection",
+                          "type": "return_to_checkpoint"
+                        }
+                      ],
+                      "label": "wings twitch instinctively"
+                    },
+                    {
+                      "actions": [
+                        {
+                          "field": "race",
+                          "show_editor": false,
+                          "type": "edit_persona",
+                          "value": "earth_pony"
+                        },
+                        {
+                          "checkpoint_id": "after_pony_species_selection",
+                          "type": "return_to_checkpoint"
+                        }
+                      ],
+                      "label": "sturdy frame shifts"
+                    }
+                  ],
+                  "prompt": "Your ",
+                  "type": "branch"
+                },
+                {
+                  "checkpoint_id": "after_pony_species_selection",
+                  "type": "create_checkpoint"
+                },
+                {
+                  "type": "edit_persona"
+                },
+                {
+                  "seamless": true,
+                  "speaker_id": "",
+                  "text": " as the weight of your new beginning settles in.\n\nYou remain lost in thought until the high-pitched squeal of brakes snaps you back to reality.\n\nPonyville. A fresh start. Taking a deep breath, you collect your saddlebags and step out onto the platform, greeted by the warm sun and the crisp, clean air of the countryside.",
+                  "type": "dialogue"
+                },
+                {
+                  "location_id": "train_station",
+                  "type": "change_location"
+                },
+                {
+                  "checkpoint_id": "quick_start_arrival_at_train_station",
+                  "type": "return_to_checkpoint"
+                }
+              ],
+              "label": "pony looking back seems weary, yet hopeful."
+            },
+            {
+              "actions": [
+                {
+                  "speaker_id": "",
+                  "text": "Your eyes trace over the reflection in the glass. Familiar features, yet in this world, they look impossibly alien. You catch sight of your ",
+                  "type": "dialogue"
+                },
+                {
+                  "field": "species",
+                  "show_editor": false,
+                  "type": "edit_persona",
+                  "value": "human"
+                },
+                {
+                  "options": [
+                    {
+                      "actions": [
+                        {
+                          "field": "sex",
+                          "show_editor": false,
+                          "type": "edit_persona",
+                          "value": "male"
+                        },
+                        {
+                          "checkpoint_id": "after_human_sex_selection",
+                          "type": "return_to_checkpoint"
+                        }
+                      ],
+                      "label": "broad shoulders, slumped with exhaustion"
+                    },
+                    {
+                      "actions": [
+                        {
+                          "field": "sex",
+                          "show_editor": false,
+                          "type": "edit_persona",
+                          "value": "female"
+                        },
+                        {
+                          "checkpoint_id": "after_human_sex_selection",
+                          "type": "return_to_checkpoint"
+                        }
+                      ],
+                      "label": "slender shoulders, slumped with exhaustion"
+                    }
+                  ],
+                  "prompt": "",
+                  "type": "branch"
+                },
+                {
+                  "checkpoint_id": "after_human_sex_selection",
+                  "type": "create_checkpoint"
+                },
+                {
+                  "type": "edit_persona"
+                },
+                {
+                  "speaker_id": "",
+                  "text": ". The physical toll of the trip is undeniable, but it's the mental weight that feels heaviest. Your hand rises to the pane. Five fingers spread against the glass.\n\nA Human in Equestria.\n\nIt's been a blur since you woke up in the Canterlot gardens. Princess Celestia was gracious enough to arrange this move to Ponyville, thinking a smaller town might be easier to adjust to than the capital. But as the train slows, the reality of your situation sets in.",
+                  "type": "dialogue"
+                },
+                {
+                  "speaker_id": "",
+                  "text": "\nThe brakes squeal—a universal sound. You pull your collar up tight, hiding as much of your 'alien' features as you can. It's showtime.\n\nYou step out onto the platform. The air is fresh, smelling of hay and flowers. And everyone is a pony.",
+                  "type": "dialogue"
+                },
+                {
+                  "location_id": "train_station",
+                  "type": "change_location"
+                },
+                {
+                  "checkpoint_id": "quick_start_arrival_at_train_station",
+                  "type": "return_to_checkpoint"
+                }
+              ],
+              "label": "human that looks back has a tired expression."
+            }
+          ],
+          "prompt": "",
+          "type": "branch"
+        },
+        {
+          "checkpoint_id": "quick_start_arrival_at_train_station",
+          "type": "create_checkpoint"
+        },
+        {
+          "options": [
+            {
+              "actions": [
+                {
+                  "character_id": "twi",
+                  "emotion": "default",
+                  "position": "center",
+                  "type": "character_enter"
+                },
+                {
+                  "character_id": "spike",
+                  "emotion": "default",
+                  "position": "center",
+                  "type": "character_enter"
+                },
+                {
+                  "group_id": "quick_start_1",
+                  "members": [
+                    "twi",
+                    "spike"
+                  ],
+                  "type": "create_group"
+                },
+                {
+                  "emotion": "neutral",
+                  "speaker_id": "twi",
+                  "text": "Four minutes and twelve seconds late! The schedule clearly states an 11:00 AM arrival! Honestly, Spike, the conductor is becoming incredibly lax with— Oh! Goodness, there they are!",
+                  "type": "dialogue"
+                },
+                {
+                  "emotion": "default",
+                  "speaker_id": "spike",
+                  "text": "Relax, Twilight. We're here, they're here. You sure that's them, though? They look pretty... normal. Not exactly the 'High Society' types Canterlot usually sends us.",
+                  "type": "dialogue"
+                },
+                {
+                  "type": "llm_prompt"
+                },
+                {
+                  "speaker_id": "narrator",
+                  "text": "\nThe long journey has taken its toll, and despite the warm welcome, you can't quite hide the exhaustion etched onto your face.",
+                  "type": "dialogue"
+                },
+                {
+                  "options": [
+                    {
+                      "actions": [
+                        {
+                          "type": "set_variable",
+                          "value": [
+                            "golden_oak_guestroom"
+                          ],
+                          "var_name": "valid_rest_locations",
+                          "var_type": "array"
+                        },
+                        {
+                          "type": "llm_prompt",
+                          "user_prompt": "If not already there write the currently present characters leading the user to their prepared guest quarters at golden_oak_guestroom before excusing themselves. If needed the path from the train station is: ponyville_main_square, golden_oaks_library, golden_oak_interior, golden_oak_guestroom"
+                        },
+                        {
+                          "type": "end_event"
+                        }
+                      ],
+                      "condition": {
+                        "is_fallback": true
+                      },
+                      "label": "Not at Twilight's place"
+                    },
+                    {
+                      "actions": [
+                        {
+                          "type": "set_variable",
+                          "value": [
+                            "golden_oak_guestroom"
+                          ],
+                          "var_name": "valid_rest_locations",
+                          "var_type": "array"
+                        },
+                        {
+                          "type": "llm_prompt",
+                          "user_prompt": "If not already there write the currently present characters leading the user to their prepared guest quarters at golden_oak_guestroom before excusing themselves."
+                        },
+                        {
+                          "type": "end_event"
+                        }
+                      ],
+                      "condition": {
+                        "count": 1.0,
+                        "list": [
+                          {
+                            "operator": "==",
+                            "type": "string",
+                            "value": "golden_oak_interior",
+                            "var_name": "player_location"
+                          },
+                          {
+                            "operator": "==",
+                            "type": "string",
+                            "value": "golden_oak_guestroom",
+                            "var_name": "player_location"
+                          },
+                          {
+                            "operator": "==",
+                            "type": "string",
+                            "value": "twilight_bedroom",
+                            "var_name": "player_location"
+                          },
+                          {
+                            "operator": "==",
+                            "type": "string",
+                            "value": "golden_oak_bathtub",
+                            "var_name": "player_location"
+                          }
+                        ],
+                        "mode": "AT_LEAST"
+                      },
+                      "label": "Already at Twilight's place"
+                    }
+                  ],
+                  "type": "conditional_branch"
+                }
+              ],
+              "condition": {
+                "persona": {
+                  "species": "pony"
+                }
+              },
+              "label": "Is a pony"
+            },
+            {
+              "actions": [
+                {
+                  "character_id": "twi",
+                  "emotion": "default",
+                  "position": "center",
+                  "type": "character_enter"
+                },
+                {
+                  "character_id": "spike",
+                  "emotion": "default",
+                  "position": "center",
+                  "type": "character_enter"
+                },
+                {
+                  "group_id": "quick_start_1",
+                  "members": [
+                    "twi",
+                    "spike"
+                  ],
+                  "type": "create_group"
+                },
+                {
+                  "emotion": "neutral",
+                  "speaker_id": "twi",
+                  "text": "And that is— Oh! Oh my. You're actually here.",
+                  "type": "dialogue"
+                },
+                {
+                  "emotion": "default",
+                  "speaker_id": "spike",
+                  "text": "Whoa. Twi, look at it! It's... huge. And bald. Mostly.",
+                  "type": "dialogue"
+                },
+                {
+                  "emotion": "happy",
+                  "speaker_id": "twi",
+                  "text": "Spike! Ssshh! \n\n*Ahem* Welcome to Ponyville! I am Twilight Sparkle. Princess Celestia wrote to me personally about your arrival. It is a... fascinating honor to host a guest from... well, wherever it is you come from!\n\nThough I must say, she was frustratingly vague about the specifics! No diagrams, no charts, not even a basic species classification...",
+                  "type": "dialogue"
+                },
+                {
+                  "type": "llm_prompt"
+                },
+                {
+                  "speaker_id": "narrator",
+                  "text": "\nTwilight seems to be vibrating with a mix of anxiety and intense academic curiosity. She's clearly holding back a thousand questions. You, however, are just vibrating with exhaustion.",
+                  "type": "dialogue"
+                },
+                {
+                  "options": [
+                    {
+                      "actions": [
+                        {
+                          "type": "set_variable",
+                          "value": [
+                            "golden_oak_guestroom"
+                          ],
+                          "var_name": "valid_rest_locations",
+                          "var_type": "array"
+                        },
+                        {
+                          "type": "llm_prompt",
+                          "user_prompt": "If not already there write the currently present characters leading the user to their prepared guest quarters at golden_oak_guestroom before excusing themselves. If needed the path from the train station is: ponyville_main_square, golden_oaks_library, golden_oak_interior, golden_oak_guestroom"
+                        },
+                        {
+                          "type": "end_event"
+                        }
+                      ],
+                      "condition": {
+                        "is_fallback": true
+                      },
+                      "label": "Not at Twilight's place"
+                    },
+                    {
+                      "actions": [
+                        {
+                          "type": "set_variable",
+                          "value": [
+                            "golden_oak_guestroom"
+                          ],
+                          "var_name": "valid_rest_locations",
+                          "var_type": "array"
+                        },
+                        {
+                          "type": "llm_prompt",
+                          "user_prompt": "If not already there write the currently present characters leading the user to their prepared guest quarters at golden_oak_guestroom before excusing themselves."
+                        },
+                        {
+                          "type": "end_event"
+                        }
+                      ],
+                      "condition": {
+                        "count": 1.0,
+                        "list": [
+                          {
+                            "operator": "==",
+                            "type": "string",
+                            "value": "golden_oak_interior",
+                            "var_name": "player_location"
+                          },
+                          {
+                            "operator": "==",
+                            "type": "string",
+                            "value": "golden_oak_guestroom",
+                            "var_name": "player_location"
+                          },
+                          {
+                            "operator": "==",
+                            "type": "string",
+                            "value": "twilight_bedroom",
+                            "var_name": "player_location"
+                          }
+                        ],
+                        "mode": "AT_LEAST"
+                      },
+                      "label": "Already at Twilight's place"
+                    }
+                  ],
+                  "type": "conditional_branch"
+                }
+              ],
+              "condition": {
+                "persona": {
+                  "species": "human"
+                }
+              },
+              "label": "Is a human"
+            }
+          ],
+          "type": "conditional_branch"
+        }
+      ],
+      "id": "Quick Start"
+    }
+  }
+}

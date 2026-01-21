@@ -1,0 +1,12 @@
+{
+  "tag": "daisy",
+  "name": "Daisy",
+  "color": "#F4D77C",
+  "description": "A sunny Ponyville florist with a keen eye for blossoms and town happenings. Warm, a little dramatic in a pinch, and happiest arranging bouquets with her friends Roseluck and Lily Valley.",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+}
+
+

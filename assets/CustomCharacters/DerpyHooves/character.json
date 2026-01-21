@@ -1,0 +1,9 @@
+{
+  "tag": "derpy",
+  "name": "Derpy Hooves",
+  "color": "#C4C4C4",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+} 

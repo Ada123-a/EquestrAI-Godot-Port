@@ -1,0 +1,63 @@
+{
+  "character_tag": "starlight",
+  "default_location": "townhall",
+  "schedules": [
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Observing the Mayor's daily routines and gathering information about Ponyville's leadership.", "weight": 50 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Subtly preaching her philosophy of equality to the happy customers.", "weight": 30 },
+        { "location_id": "schoolhouse", "activity_hint": "Watching the fillies and colts, considering the future generation.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "golden_oak_library", "activity_hint": "Studying Ponyville's history and its 'princesses'.", "weight": 60 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Questioning the fairness of a family-run business.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "hay_burger", "activity_hint": "Starting conversations with ponies about the meaning of true friendship and equality.", "weight": 40 },
+        { "location_id": "carousel_boutique", "activity_hint": "Critiquing the concept of 'special talents' with Rarity's customers.", "weight": 30 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Trying to understand why a pony would dedicate her life to unequal creatures.", "weight": 20 },
+        { "location_id": "rainbow_dash_outskirt", "activity_hint": "Watching Rainbow Dash's individualistic displays with disapproval.", "weight": 10 }
+        
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning", "afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Holding a public forum to discuss her ideas on equality, hoping to attract new followers.", "weight": 33 },
+        { "location_id": "schoolhouse", "activity_hint": "Observing the school's dynamics to better understand the indoctrination of cutie marks.", "weight": 33 },
+        { "location_id": "golden_oak_library", "activity_hint": "Searching for books on magical equality to support her cause.", "weight": 34 }
+      ],
+      "priority": 1
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "zecora_hut", "activity_hint": "Intrigued by another who lives outside the norms of Ponyville.", "weight": 50 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Challenging the Cutie Mark Crusaders' quest for unique talents.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "location_id": "townhall",
+      "activity_hint": "Planning her next move to bring her vision of equality to Ponyville.",
+      "priority": 0
+    }
+  ]
+} 

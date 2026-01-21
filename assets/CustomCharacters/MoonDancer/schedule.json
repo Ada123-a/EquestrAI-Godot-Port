@@ -1,0 +1,84 @@
+{
+  "character_tag": "moondancer",
+  "default_location": "canterlot_cafe",
+  "schedules": [
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Reading ancient texts over morning tea, avoiding social interaction.", "weight": 50 },
+        { "location_id": "shopping_alley", "activity_hint": "Purchasing rare books and scholarly supplies.", "weight": 30 },
+        { "location_id": "royal_garden", "activity_hint": "Finding a quiet corner to study in peace.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "donut_joe_shop", "activity_hint": "Getting coffee while working on her research notes.", "weight": 40 },
+        { "location_id": "canterlot_plaza", "activity_hint": "People-watching and remembering simpler times.", "weight": 30 },
+        { "location_id": "airship_harbor", "activity_hint": "Contemplating distant travels she'll never take.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "shopping_alley", "activity_hint": "Browsing bookshops for obscure magical theory texts.", "weight": 30 },
+        { "location_id": "royal_garden", "activity_hint": "Studying in solitude among the hedge maze.", "weight": 25 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Writing her thesis while ignoring other patrons.", "weight": 20 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Observing the social dynamics she no longer participates in.", "weight": 15 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Late afternoon sugar and caffeine boost for more studying.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "canterlot_throne_room", "activity_hint": "Attending court to observe political proceedings for her research.", "weight": 40 },
+        { "location_id": "royal_garden", "activity_hint": "Early morning meditation before the crowds arrive.", "weight": 60 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "donut_joe_shop", "activity_hint": "Treating herself to weekend donuts while reviewing the week's work.", "weight": 50 },
+        { "location_id": "airship_harbor", "activity_hint": "Watching arrivals and departures, imagining other lives.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "canterlot_plaza", "activity_hint": "Early morning walk before the plaza gets crowded.", "weight": 40 },
+        { "location_id": "shopping_alley", "activity_hint": "Quiet browsing when shops first open.", "weight": 60 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Sunday afternoon tea and academic journals.", "weight": 50 },
+        { "location_id": "royal_garden", "activity_hint": "Reflecting on the week in her favorite secluded spot.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "time_slots": ["evening"],
+      "choices": [
+        { "location_id": "donut_joe_shop", "activity_hint": "Late evening coffee and solitary work.", "weight": 40 },
+        { "location_id": "airship_harbor", "activity_hint": "Watching the sunset from the harbor overlook.", "weight": 30 },
+        { "location_id": "royal_garden", "activity_hint": "Evening stargazing and astronomical calculations.", "weight": 30 }
+      ],
+      "priority": 0
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "character_tag": "bonbon",
+  "default_location": "sugarcube_corner",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Working on candy orders and helping the Cakes with confectionery.", "weight": 60 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Sourcing fresh ingredients and discussing apple-flavored candy ideas.", "weight": 25 },
+        { "location_id": "townhall", "activity_hint": "Meeting with vendors and handling business permits for her candy sales.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Perfecting new candy recipes and managing confectionery inventory.", "weight": 50 },
+        { "location_id": "townhall", "activity_hint": "Spending time with Lyra and discussing their daily adventures.", "weight": 30 },
+        { "location_id": "hay_burger", "activity_hint": "Taking a well-deserved break and grabbing a quick meal.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Meeting with Lyra and catching up on town gossip.", "weight": 40 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Experimenting with seasonal candy flavors and decorating techniques.", "weight": 35 },
+        { "location_id": "carousel_boutique", "activity_hint": "Discussing candy-themed decorations for special events with Rarity.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Preparing special weekend treats and holiday-themed candies.", "weight": 45 },
+        { "location_id": "townhall", "activity_hint": "Enjoying weekend time with Lyra and planning their day together.", "weight": 35 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Learning about seasonal fruits for new candy inspirations.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Relaxing with Lyra and sharing stories about their week.", "weight": 40 },
+        { "location_id": "hay_burger", "activity_hint": "Treating herself and friends to a nice meal after a busy week.", "weight": 30 },
+        { "location_id": "carousel_boutique", "activity_hint": "Shopping for supplies and discussing presentation ideas for her candies.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Starting the day peacefully with Lyra, planning their Sunday activities.", "weight": 50 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Doing light prep work for the upcoming week's candy orders.", "weight": 30 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Visiting Fluttershy to learn about honey and natural sweeteners.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Spending quality time with Lyra and enjoying their friendship.", "weight": 45 },
+        { "location_id": "golden_oak_library", "activity_hint": "Researching new confectionery techniques and candy-making history.", "weight": 30 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Relaxing and sampling her latest candy creations.", "weight": 25 }
+      ],
+      "priority": 0
+    }
+  ]
+} 

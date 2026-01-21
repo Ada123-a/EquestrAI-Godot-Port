@@ -1,0 +1,290 @@
+{
+  "character_tag": "strawberry",
+  "default_location": "carousel_boutique",
+  "schedules": [
+    {
+      "days": [
+        "Monday"
+      ],
+      "time_slots": [
+        "morning"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "carousel_boutique",
+          "activity_hint": "Browsing the latest fashion trends and discussing designs with Rarity.",
+          "weight": 20
+        },
+        {
+          "location_id": "hay_burger",
+          "activity_hint": "Enjoying a berry smoothie breakfast (definitely NOT apple juice).",
+          "weight": 30
+        },
+        {
+          "location_id": "townhall",
+          "activity_hint": "Shopping at the morning market for fresh berries and accessories.",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "days": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "time_slots": [
+        "afternoon"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "carousel_boutique",
+          "activity_hint": "Trying on new outfits and giving fashion advice to other ponies.",
+          "weight": 40
+        },
+        {
+          "location_id": "sugarcube_corner",
+          "activity_hint": "Enjoying berry-flavored pastries and socializing (avoiding apple treats).",
+          "weight": 30
+        },
+        {
+          "location_id": "townhall",
+          "activity_hint": "Attending social gatherings and showing off her latest fashion finds.",
+          "weight": 20
+        },
+        {
+          "location_id": "fluttershy_cottage",
+          "activity_hint": "Visiting Fluttershy to discuss nature-inspired fashion ideas.",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "days": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "time_slots": [
+        "morning"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "carousel_boutique",
+          "activity_hint": "Browsing the latest fashion trends and discussing designs with Rarity.",
+          "weight": 50
+        },
+        {
+          "location_id": "hay_burger",
+          "activity_hint": "Enjoying a berry smoothie breakfast (definitely NOT apple juice).",
+          "weight": 30
+        },
+        {
+          "location_id": "townhall",
+          "activity_hint": "Shopping at the morning market for fresh berries and accessories.",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "days": [
+        "Tuesday"
+      ],
+      "time_slots": [
+        "afternoon"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "carousel_boutique",
+          "activity_hint": "Having her weekly fashion consultation with Rarity.",
+          "weight": 60
+        },
+        {
+          "location_id": "golden_oak_library",
+          "activity_hint": "Reading fashion magazines and trend reports.",
+          "weight": 25
+        },
+        {
+          "location_id": "hay_burger",
+          "activity_hint": "Meeting friends for lunch (ordering the berry salad, of course).",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "days": [
+        "Thursday"
+      ],
+      "time_slots": [
+        "afternoon"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "townhall",
+          "activity_hint": "Participating in the weekly fashion club meeting.",
+          "weight": 50
+        },
+        {
+          "location_id": "carousel_boutique",
+          "activity_hint": "Getting measurements for a custom outfit.",
+          "weight": 30
+        },
+        {
+          "location_id": "sugarcube_corner",
+          "activity_hint": "Hosting a berry-themed tea party with friends.",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "days": [
+        "Saturday"
+      ],
+      "time_slots": [
+        "morning"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "carousel_boutique",
+          "activity_hint": "Attending Rarity's weekend fashion showcase.",
+          "weight": 40
+        },
+        {
+          "location_id": "townhall",
+          "activity_hint": "Shopping at the weekend farmer's market (avoiding the apple stands).",
+          "weight": 35
+        },
+        {
+          "location_id": "hay_burger",
+          "activity_hint": "Having brunch with her fashion-forward friends.",
+          "weight": 15
+        },
+        {
+          "location_id": "golden_oak_library",
+          "activity_hint": "Borrowing books on fashion history and design.",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "days": [
+        "Saturday"
+      ],
+      "time_slots": [
+        "afternoon"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "sugarcube_corner",
+          "activity_hint": "Attending Pinkie's berry-themed party (she specifically requested no apples).",
+          "weight": 35
+        },
+        {
+          "location_id": "carousel_boutique",
+          "activity_hint": "Modeling for Rarity's new line of summer dresses.",
+          "weight": 30
+        },
+        {
+          "location_id": "townhall",
+          "activity_hint": "Participating in community fashion shows and events.",
+          "weight": 25
+        },
+        {
+          "location_id": "rainbow_dash_outskirt",
+          "activity_hint": "Watching pegasus aerial shows while critiquing their outfit coordination.",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "days": [
+        "Sunday"
+      ],
+      "time_slots": [
+        "morning"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "fluttershy_cottage",
+          "activity_hint": "Having a peaceful morning tea with Fluttershy (berry tea, naturally).",
+          "weight": 40
+        },
+        {
+          "location_id": "carousel_boutique",
+          "activity_hint": "Helping Rarity organize fabric and discussing upcoming trends.",
+          "weight": 30
+        },
+        {
+          "location_id": "golden_oak_library",
+          "activity_hint": "Quiet reading time with fashion and lifestyle magazines.",
+          "weight": 20
+        },
+        {
+          "location_id": "hay_burger",
+          "activity_hint": "Enjoying a leisurely Sunday breakfast.",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "days": [
+        "Sunday"
+      ],
+      "time_slots": [
+        "afternoon"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "townhall",
+          "activity_hint": "Attending the weekly social gathering and fashion exchange.",
+          "weight": 35
+        },
+        {
+          "location_id": "carousel_boutique",
+          "activity_hint": "Planning next week's outfits and organizing her fashion collection.",
+          "weight": 30
+        },
+        {
+          "location_id": "sugarcube_corner",
+          "activity_hint": "Relaxing with friends over berry tarts and gossip.",
+          "weight": 25
+        },
+        {
+          "location_id": "golden_oak_library",
+          "activity_hint": "Studying color theory and fashion design principles.",
+          "weight": 10
+        }
+      ]
+    }
+  ],
+  "special_conditions": [
+    {
+      "description": "Strawberry Sunrise actively avoids Sweet Apple Acres due to her well-known dislike of apples.",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "time_slots": [
+        "morning",
+        "afternoon"
+      ],
+      "location_id": "sweet_apple_acres",
+      "override_weight": 0
+    }
+  ]
+}

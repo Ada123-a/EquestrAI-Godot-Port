@@ -1,0 +1,68 @@
+{
+  "character_tag": "redheart",
+  "default_location": "horsepital",
+  "schedules": [
+      {
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "time_slots": ["morning"],
+        "choices": [
+          { "location_id": "horsepital", "activity_hint": "Conducting morning rounds and patient check-ups.", "weight": 80 },
+          { "location_id": "townhall", "activity_hint": "Giving a brief wellness update to city officials.", "weight": 20 }
+        ],
+        "priority": 0
+      },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "location_id": "horsepital",
+      "activity_hint": "Overseeing the clinic and treating patients.",
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Conducting a public health seminar.", "weight": 70 },
+        { "location_id": "schoolhouse", "activity_hint": "Teaching young ponies about health and hygiene.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+      {
+        "days": ["Thursday"],
+        "time_slots": ["afternoon"],
+        "location_id": "townhall",
+        "activity_hint": "Providing medical support for Fluttershy's adoption event.",
+        "priority": 0
+      },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "location_id": "horsepital",
+      "activity_hint": "Training new medical staff.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Taking a well-deserved coffee break.", "weight": 60 },
+        { "location_id": "hay_burger", "activity_hint": "Grabbing a quick lunch between shifts.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "location_id": "sweet_apple_acres",
+      "activity_hint": "Doing wellness checks for the Apple family.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "location_id": "horsepital",
+      "activity_hint": "Catching up on medical paperwork.",
+      "priority": 0
+    }
+  ]
+} 

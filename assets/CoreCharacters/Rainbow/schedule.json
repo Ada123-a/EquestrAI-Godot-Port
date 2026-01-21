@@ -1,0 +1,68 @@
+{
+  "character_tag": "dash",
+  "default_location": "rainbow_dash_outskirt",
+  "schedules": [
+      {
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "time_slots": ["morning"],
+        "choices": [
+          { "location_id": "rainbow_dash_outskirt", "activity_hint": "Practicing aerial stunts and cloud management.", "weight": 70 },
+          { "location_id": "sweet_apple_acres", "activity_hint": "Helping Applejack with early chores.", "weight": 15 },
+          { "location_id": "townhall", "activity_hint": "Checking the weather schedule.", "weight": 15 }
+        ],
+        "priority": 0
+      },
+      {
+        "days": ["Monday", "Wednesday", "Friday"],
+        "time_slots": ["afternoon"],
+        "choices": [
+          { "location_id": "rainbow_dash_outskirt", "activity_hint": "Weather patrol and cloud clearing.", "weight": 60 },
+          { "location_id": "townhall", "activity_hint": "Meeting with the weather team.", "weight": 20 },
+          { "location_id": "sweet_apple_acres", "activity_hint": "Sneaking in a quick snack with Applejack.", "weight": 20 }
+        ],
+        "priority": 0
+      },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "location_id": "golden_oak_library",
+      "activity_hint": "Reading Daring Do books.",
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "location_id": "sweet_apple_acres",
+      "activity_hint": "Helping Applejack with aerial farm tasks.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "location_id": "rainbow_dash_outskirt",
+      "activity_hint": "Training for the Wonderbolts.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "location_id": "sugarcube_corner",
+      "activity_hint": "Hanging out with friends.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "location_id": "rainbow_dash_outskirt",
+      "activity_hint": "Napping on clouds.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "location_id": "zecora_hut",
+      "activity_hint": "Exploring the Everfree Forest for thrills.",
+      "priority": 0
+    }
+  ]
+} 

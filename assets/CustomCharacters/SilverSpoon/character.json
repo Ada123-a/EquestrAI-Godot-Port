@@ -1,0 +1,10 @@
+{
+  "tag": "silverspoon",
+  "name": "Silver Spoon",
+  "color": "#C0C0C0",
+  "type": "foal",
+  "location": {
+    "id": "schoolhouse",
+    "icon": "icon/icon.png"
+  }
+} 

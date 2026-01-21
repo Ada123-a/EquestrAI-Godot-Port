@@ -1,0 +1,58 @@
+{
+  "character_tag": "photofinish",
+  "default_location": "shopping_alley",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "shopping_alley", "activity_hint": "Overseeing boutique shoots and scouting looks.", "weight": 55 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Street-style snaps of Canterlot elites.", "weight": 25 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Quick espresso and reviewing contact sheets.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "On-location fashion photography among statues.", "weight": 40 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Public reveals of the next GREAT LOOK.", "weight": 35 },
+        { "location_id": "shopping_alley", "activity_hint": "Fittings and wardrobe adjustments for models.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Interviews with fashion columnists and editors.", "weight": 40 },
+        { "location_id": "shopping_alley", "activity_hint": "Selecting accessories for the next shoot.", "weight": 35 },
+        { "location_id": "royal_garden", "activity_hint": "Testing light and angles for compositions.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning", "afternoon"],
+      "choices": [
+        { "location_id": "canterlot_plaza", "activity_hint": "High-energy runway previews for the public.", "weight": 45 },
+        { "location_id": "shopping_alley", "activity_hint": "Pop-up photo calls outside boutiques.", "weight": 35 },
+        { "location_id": "royal_garden", "activity_hint": "Artistic portraits with natural backdrops.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["any"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Quiet curation of prints and inspiration walks.", "weight": 45 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Relaxed debrief with her creative team.", "weight": 30 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Casual candid captures of weekend life.", "weight": 25 }
+      ],
+      "priority": 0
+    }
+  ]
+}
+
+

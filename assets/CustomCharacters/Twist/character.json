@@ -1,0 +1,11 @@
+{
+  "tag": "twist",
+  "name": "Twist",
+  "color": "#CD853F",
+  "type": "foal",
+  "description": "A sweet earth pony filly with a passion for candy making, especially peppermint sticks. She was Apple Bloom's best friend before the Cutie Mark Crusaders formed. Has a distinctive lisp that makes her pronounce 'S' sounds as 'TH' (for example: 'thweet' instead of 'sweet', 'thpecial' instead of 'special', 'clath' instead of 'class'). Despite sometimes feeling left out when Apple Bloom hangs with the CMC, she remains friendly and optimistic. Recently got her cutie mark in candy making and loves sharing her creations with everypony.",
+  "location": {
+    "id": "sugarcube_corner",
+    "icon": "icon/icon.png"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "character_tag": "silverspoon",
+  "default_location": "townhall",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "location_id": "schoolhouse",
+      "activity_hint": "Attending school with her best friend, Diamond Tiara.",
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "carousel_boutique", "activity_hint": "Trying on new accessories with Diamond Tiara.", "weight": 40 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Sharing a milkshake with Diamond Tiara.", "weight": 40 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Observing the Cutie Mark Crusaders' latest antics from a distance.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Waiting for Diamond Tiara to finish her 'important' business.", "weight": 50 },
+        { "location_id": "hay_burger", "activity_hint": "Gossiping with Diamond Tiara over some fries.", "weight": 30 },
+        { "location_id": "golden_oak_library", "activity_hint": "Doing homework, often getting help from Diamond Tiara.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+        "days": ["Friday"],
+        "time_slots": ["afternoon"],
+        "choices": [
+          { "location_id": "sweet_apple_acres", "activity_hint": "Teasing Apple Bloom with Diamond Tiara.", "weight": 50 },
+          { "location_id": "sugarcube_corner", "activity_hint": "Planning weekend activities with Diamond Tiara.", "weight": 50 }
+        ],
+        "priority": 0
+      },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "carousel_boutique", "activity_hint": "Helping Diamond Tiara pick out outfits.", "weight": 50 },
+        { "location_id": "townhall", "activity_hint": "Attending social functions with her family and the Tiara family.", "weight": 35 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Attending a party hosted by Diamond Tiara.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Playing at a high-society event.", "weight": 40 },
+        { "location_id": "carousel_boutique", "activity_hint": "Watching Diamond Tiara get fitted for custom outfits.", "weight": 35 },
+        { "location_id": "hay_burger", "activity_hint": "Enjoying an expensive meal paid for by Diamond Tiara.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Attending a formal family brunch.", "weight": 60 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Quietly watching the animals, a secret interest of hers.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Participating in social gatherings with Ponyville's elite.", "weight": 45 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Enjoying a quiet tea party with her own friends.", "weight": 30 },
+        { "location_id": "carousel_boutique", "activity_hint": "Daydreaming about her own future fabulous outfits.", "weight": 25 }
+      ],
+      "priority": 0
+    }
+  ]
+} 

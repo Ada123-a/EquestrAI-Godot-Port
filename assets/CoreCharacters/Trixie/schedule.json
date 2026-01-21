@@ -1,0 +1,58 @@
+{
+  "character_tag": "trixie",
+  "default_location": "trixie_wagon",
+  "schedules": [
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "trixie_wagon", "activity_hint": "Rehearsing new magic tricks.", "weight": 70 },
+        { "location_id": "townhall", "activity_hint": "Handing out flyers for upcoming performances.", "weight": 15 },
+        { "location_id": "golden_oak_library", "activity_hint": "Studying stagecraft secrets in secret.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["morning"],
+      "location_id": "zecora_hut",
+      "activity_hint": "Seeking mystical ingredients from the Everfree.",
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday"],
+      "time_slots": ["afternoon"],
+      "location_id": "townhall",
+      "activity_hint": "Performing magic shows in the town square.",
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday", "Friday"],
+      "time_slots": ["afternoon"],
+      "location_id": "trixie_wagon",
+      "activity_hint": "Practicing illusions and boasting to passersby.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "location_id": "golden_oak_library",
+      "activity_hint": "Secretly researching advanced magic.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "location_id": "trixie_wagon",
+      "activity_hint": "Giving private magic lessons (for a fee).",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["any"],
+      "location_id": "trixie_wagon",
+      "activity_hint": "Resting and planning world domination... er, future shows.",
+      "priority": 0
+    }
+  ]
+} 

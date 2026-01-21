@@ -1,0 +1,125 @@
+{
+  "character_tag": "lyra",
+  "default_location": "townhall",
+  "schedules": [
+    {
+      "days": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "time_slots": [
+        "morning"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "townhall",
+          "activity_hint": "Playing lyre for morning commuters.",
+          "weight": 60
+        },
+        {
+          "location_id": "sugarcube_corner",
+          "activity_hint": "Grabbing a quick cupcake with Bon Bon.",
+          "weight": 20
+        },
+        {
+          "location_id": "golden_oak_library",
+          "activity_hint": "Browsing for new sheet music.",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "days": [
+        "Monday",
+        "Wednesday"
+      ],
+      "time_slots": [
+        "afternoon"
+      ],
+      "priority": 0,
+      "location_id": "golden_oak_library",
+      "activity_hint": "Researching human myths and legends."
+    },
+    {
+      "days": [
+        "Tuesday",
+        "Thursday"
+      ],
+      "time_slots": [
+        "morning"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "sugarcube_corner",
+          "activity_hint": "Having breakfast with Bon Bon.",
+          "weight": 80
+        },
+        {
+          "location_id": "hay_burger",
+          "activity_hint": "Trying breakfast at the new burger place with Bon Bon.",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "days": [
+        "Tuesday",
+        "Thursday",
+        "Friday"
+      ],
+      "time_slots": [
+        "afternoon"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "townhall",
+          "activity_hint": "Giving lyre lessons to young ponies.",
+          "weight": 70
+        },
+        {
+          "location_id": "schoolhouse",
+          "activity_hint": "Teaching music class and lyre lessons at school.",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "days": [
+        "Saturday"
+      ],
+      "time_slots": [
+        "morning"
+      ],
+      "priority": 0,
+      "location_id": "townhall",
+      "activity_hint": "Practicing for weekend performances."
+    },
+    {
+      "days": [
+        "Saturday"
+      ],
+      "time_slots": [
+        "afternoon"
+      ],
+      "priority": 0,
+      "location_id": "sugarcube_corner",
+      "activity_hint": "Meeting with the Ponyville Musicians Guild."
+    },
+    {
+      "days": [
+        "Sunday"
+      ],
+      "time_slots": [
+        "morning",
+        "afternoon"
+      ],
+      "priority": 0,
+      "location_id": "sweet_apple_acres",
+      "activity_hint": "Relaxing in the countryside and writing music."
+    }
+  ]
+}

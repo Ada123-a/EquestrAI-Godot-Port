@@ -1,0 +1,42 @@
+{
+  "character_tag": "mrscake",
+  "default_location": "sugarcube_corner",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "time_slots": ["morning"],
+      "location_id": "sugarcube_corner",
+      "activity_hint": "Opening the bakery and preparing fresh pastries for the day.",
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Managing the bakery and serving customers.", "weight": 80 },
+        { "location_id": "townhall", "activity_hint": "Delivering catering orders for town events.", "weight": 15 },
+        { "location_id": "golden_oak_library", "activity_hint": "Looking for new recipe books.", "weight": 5 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Busy weekend rush at the bakery.", "weight": 90 },
+        { "location_id": "townhall", "activity_hint": "Setting up treats for weekend events.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Sunday special baking and lighter customer service.", "weight": 70 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Visiting friends with fresh-baked goods.", "weight": 15 },
+        { "location_id": "carousel_boutique", "activity_hint": "Having tea with Rarity and discussing party planning.", "weight": 15 }
+      ],
+      "priority": 0
+    }
+  ]
+}

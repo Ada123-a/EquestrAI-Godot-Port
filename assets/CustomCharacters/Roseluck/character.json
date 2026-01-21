@@ -1,0 +1,9 @@
+{
+  "tag": "roseluck",
+  "name": "Roseluck",
+  "color": "#FF69B4",
+  "location": {
+    "id": "townhall",
+    "icon": "icon/icon.png"
+  }
+}

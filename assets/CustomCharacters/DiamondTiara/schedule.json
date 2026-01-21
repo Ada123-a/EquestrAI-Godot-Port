@@ -1,0 +1,72 @@
+{
+  "character_tag": "diamond",
+  "default_location": "townhall",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "location_id": "schoolhouse",
+      "activity_hint": "Attending school, though she often acts superior to her classmates.",
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "carousel_boutique", "activity_hint": "Shopping for the latest fashions and accessories.", "weight": 40 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Ordering the most expensive treats and showing off.", "weight": 30 },
+        { "location_id": "townhall", "activity_hint": "Accompanying her father on important town business.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday", "Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Learning about town politics and her family's influence.", "weight": 50 },
+        { "location_id": "hay_burger", "activity_hint": "Meeting with Silver Spoon and gossiping about other ponies.", "weight": 30 },
+        { "location_id": "golden_oak_library", "activity_hint": "Reluctantly doing homework, though she'd rather be elsewhere.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "carousel_boutique", "activity_hint": "Having a private fashion consultation with Rarity.", "weight": 50 },
+        { "location_id": "townhall", "activity_hint": "Attending important family meetings and social functions.", "weight": 35 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Hosting a small party for her select group of friends.", "weight": 15 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Attending high-society events and networking with important ponies.", "weight": 40 },
+        { "location_id": "carousel_boutique", "activity_hint": "Getting fitted for custom-made outfits and accessories.", "weight": 35 },
+        { "location_id": "hay_burger", "activity_hint": "Showing off her wealth by treating friends to expensive meals.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Attending formal family brunch and discussing business.", "weight": 60 },
+        { "location_id": "carousel_boutique", "activity_hint": "Getting her mane and appearance professionally styled.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Participating in exclusive social gatherings with Ponyville's elite.", "weight": 45 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Hosting an elaborate tea party for her closest friends.", "weight": 30 },
+        { "location_id": "carousel_boutique", "activity_hint": "Planning her outfits for the upcoming school week.", "weight": 25 }
+      ],
+      "priority": 0
+    }
+  ]
+} 

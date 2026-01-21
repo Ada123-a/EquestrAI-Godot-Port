@@ -1,0 +1,83 @@
+{
+  "character_tag": "scootaloo",
+  "default_location": "cmc_clubhouse",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "location_id": "schoolhouse",
+      "activity_hint": "Attending school with the other fillies and colts.",
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "cmc_clubhouse", "activity_hint": "Meeting with Apple Bloom and Sweetie Belle for CMC activities.", "weight": 50 },
+        { "location_id": "rainbow_dash_outskirt", "activity_hint": "Practicing scooter tricks and hoping to see Rainbow Dash.", "weight": 30 },
+        { "location_id": "hay_burger", "activity_hint": "Getting a snack with the other CMC members.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "rainbow_dash_outskirt", "activity_hint": "Practicing flying attempts and scooter stunts.", "weight": 60 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Working on a daredevil project with her friends.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "cmc_clubhouse", "activity_hint": "Planning the next cutie mark adventure.", "weight": 50 },
+        { "location_id": "townhall", "activity_hint": "Showing off scooter tricks to impress other ponies.", "weight": 30 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Getting treats and playing with friends.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "rainbow_dash_outskirt", "activity_hint": "Early morning flying practice and scooter training.", "weight": 50 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Weekend CMC meeting.", "weight": 40 },
+        { "location_id": "townhall", "activity_hint": "Practicing stunts in the town square.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "cmc_clubhouse", "activity_hint": "Adventure time with Apple Bloom and Sweetie Belle.", "weight": 40 },
+        { "location_id": "rainbow_dash_outskirt", "activity_hint": "Afternoon training session and cloud watching.", "weight": 35 },
+        { "location_id": "zecora_hut", "activity_hint": "Brave expedition to the Everfree Forest with friends.", "weight": 15 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Reluctantly helping with animal care (if dragged by friends).", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "rainbow_dash_outskirt", "activity_hint": "Solo practice time and daydreaming about flying.", "weight": 60 },
+        { "location_id": "cmc_clubhouse", "activity_hint": "Tinkering with her scooter and planning stunts.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "cmc_clubhouse", "activity_hint": "Relaxing and planning for the week ahead.", "weight": 40 },
+        { "location_id": "townhall", "activity_hint": "Showing off to other ponies and making new friends.", "weight": 30 },
+        { "location_id": "golden_oak_library", "activity_hint": "Reluctantly doing homework or reading about flying.", "weight": 20 },
+        { "location_id": "carousel_boutique", "activity_hint": "Visiting Sweetie Belle and getting fashion advice (reluctantly).", "weight": 10 }
+      ],
+      "priority": 0
+    }
+  ]
+} 

@@ -1,0 +1,9 @@
+{
+  "tag": "cheerilee",
+  "name": "Cheerilee",
+  "color": "#D8BFD8",
+  "location": {
+    "id": "schoolhouse",
+    "icon": "icon/icon.png"
+  }
+} 

@@ -1,0 +1,10 @@
+{
+  "tag": "strawberry",
+  "name": "Strawberry Sunrise",
+  "color": "#FFB6C1",
+  "description": "Strawberry Sunrise is a female pegasus with a yellow coat and a swirly crimson mane and tail, along with green eyes and long lashes. She has a notorious dislike of apples, considering them inferior to berries in every way, which often puts her at odds with the Apple family. Despite her strong opinions about fruit, she's a social butterfly.",
+  "location": {
+    "id": "carousel_boutique",
+    "icon": "icon/icon.png"
+  }
+}

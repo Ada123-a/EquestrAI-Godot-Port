@@ -1,0 +1,22 @@
+{
+  "character_tag": "drone",
+  "default_location": "townhall",
+  "schedules": [
+    {
+      "days": [
+        "Sunday"
+      ],
+      "time_slots": [
+        "afternoon"
+      ],
+      "priority": 0,
+      "choices": [
+        {
+          "location_id": "zecora_hut",
+          "activity_hint": "",
+          "weight": 50
+        },
+      ]
+    }
+  ]
+}

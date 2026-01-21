@@ -1,0 +1,77 @@
+[gd_scene load_steps=3 format=3 uid="uid://inventory_panel_ui"]
+
+[ext_resource type="Script" path="res://scenes/ui/InventoryPanel.gd" id="1_inv_panel"]
+[ext_resource type="Theme" uid="uid://minimal_theme_ui" path="res://assets/UI/MinimalTheme.tres" id="2_theme"]
+
+[node name="InventoryPanel" type="PanelContainer"]
+custom_minimum_size = Vector2(300, 350)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -175.0
+offset_right = 150.0
+offset_bottom = 175.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_theme")
+script = ExtResource("1_inv_panel")
+
+[node name="Margin" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBox" type="VBoxContainer" parent="Margin"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="HeaderBox" type="HBoxContainer" parent="Margin/VBox"]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Margin/VBox/HeaderBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 20
+text = "Inventory"
+
+[node name="CloseButton" type="Button" parent="Margin/VBox/HeaderBox"]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+text = "X"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Margin/VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="GridContainer" type="GridContainer" parent="Margin/VBox/ScrollContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+columns = 3
+
+[node name="EmptyLabel" type="Label" parent="Margin/VBox/ScrollContainer"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 6
+text = "No items."
+horizontal_alignment = 1
+
+[node name="ContextMenu" type="PopupMenu" parent="."]
+unique_name_in_owner = true
+size = Vector2(100, 80)
+item_count = 3
+item_0/text = "Use"
+item_0/id = 0
+item_1/text = "Discard"
+item_1/id = 1
+item_2/text = "Cancel"
+item_2/id = 2

@@ -1,0 +1,98 @@
+{
+  "character_tag": "luna",
+  "default_location": "canterlot_throne_room",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "canterlot_throne_room", "activity_hint": "Finishing night court as dawn breaks.", "weight": 40 },
+        { "location_id": "royal_garden", "activity_hint": "Morning meditation after a long night.", "weight": 35 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Early morning coffee before retiring.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_throne_room", "activity_hint": "Rare afternoon appearance for urgent matters.", "weight": 20 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Late afternoon 'breakfast' at her favorite spot.", "weight": 30 },
+        { "location_id": "shopping_alley", "activity_hint": "Quiet afternoon errands while most ponies work.", "weight": 25 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Afternoon tea, trying to adjust to day schedule.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["evening"],
+      "choices": [
+        { "location_id": "canterlot_throne_room", "activity_hint": "Beginning night court as the sun sets.", "weight": 40 },
+        { "location_id": "royal_garden", "activity_hint": "Raising the moon from the garden pavilion.", "weight": 30 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Evening patrol through the city.", "weight": 20 },
+        { "location_id": "airship_harbor", "activity_hint": "Watching over late arrivals and departures.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "canterlot_throne_room", "activity_hint": "Brief appearance at Celestia's open court.", "weight": 35 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Rare morning tea with early risers.", "weight": 30 },
+        { "location_id": "royal_garden", "activity_hint": "Quiet morning in the gardens.", "weight": 35 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "donut_joe_shop", "activity_hint": "Weekend afternoon treat.", "weight": 40 },
+        { "location_id": "shopping_alley", "activity_hint": "Weekend shopping when it's busier.", "weight": 30 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Observing weekend activities.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["evening"],
+      "choices": [
+        { "location_id": "canterlot_plaza", "activity_hint": "Mingling with citizens during weekend festivities.", "weight": 40 },
+        { "location_id": "royal_garden", "activity_hint": "Hosting stargazing sessions for interested ponies.", "weight": 30 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Regular Saturday evening visit to Joe's.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Quiet Sunday morning meditation.", "weight": 50 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Attempting a normal Sunday brunch.", "weight": 30 },
+        { "location_id": "airship_harbor", "activity_hint": "Watching the morning mist over the valley.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "shopping_alley", "activity_hint": "Afternoon shopping when shops are quieter.", "weight": 35 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Late afternoon meal before night duties.", "weight": 35 },
+        { "location_id": "canterlot_plaza", "activity_hint": "People-watching in the afternoon sun.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["evening"],
+      "choices": [
+        { "location_id": "canterlot_throne_room", "activity_hint": "Sunday night court for dream concerns.", "weight": 40 },
+        { "location_id": "airship_harbor", "activity_hint": "Watching the sunset and moonrise over the harbor.", "weight": 30 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Evening rounds through the quiet city.", "weight": 30 }
+      ],
+      "priority": 0
+    }
+  ]
+}

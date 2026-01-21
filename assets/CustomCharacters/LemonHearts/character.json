@@ -1,0 +1,12 @@
+{
+  "tag": "lemonhearts",
+  "name": "Lemon Hearts",
+  "color": "#F7E36A",
+  "description": "A friendly Canterlot unicorn with a sunny disposition who loves social gatherings.",
+  "location": {
+    "id": "canterlot_plaza",
+    "icon": "Icon/icon.png"
+  }
+}
+
+

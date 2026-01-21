@@ -1,0 +1,10 @@
+{
+  "tag": "scootaloo",
+  "name": "Scootaloo",
+  "color": "#FF6600",
+  "type": "foal",
+  "location": {
+    "id": "cmc_clubhouse",
+    "icon": "icon/icon.png"
+  }
+} 

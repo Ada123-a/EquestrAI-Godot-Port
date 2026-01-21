@@ -1,0 +1,11 @@
+{
+  "tag": "discord",
+  "name": "Discord",
+  "color": "#E4F222",
+  "type": "alicorn",
+  "description": "Discord, the mischievous spirit of chaos and disharmony, thrives on bending reality to his whims with unpredictable magic and witty banter. Though often playful and eccentric, his antics can teeter between harmless pranks and troublesome meddling. Beneath his trickster exterior, however, lies a surprisingly loyal heart and a fascination with friendship that he doesn’t always know how to express.",
+  "location": {
+    "id": "fluttershy_cottage",
+    "icon": "icon/icon.png"
+  }
+}

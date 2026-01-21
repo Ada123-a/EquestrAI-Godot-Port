@@ -1,0 +1,82 @@
+{
+  "character_tag": "bigmac",
+  "default_location": "sweet_apple_acres",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "location_id": "sweet_apple_acres",
+      "activity_hint": "Working in the apple orchards, bucking trees and hauling carts.",
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Wednesday"],
+      "time_slots": ["afternoon"],
+      "location_id": "sweet_apple_acres",
+      "activity_hint": "Continuing farm work and maintaining equipment.",
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Delivering apples to town and running errands.", "weight": 60 },
+        { "location_id": "hay_burger", "activity_hint": "Getting lunch after morning work.", "weight": 40 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Delivering apples for pies and pastries.", "weight": 50 },
+        { "location_id": "carousel_boutique", "activity_hint": "Visiting for a special order or helping with heavy lifting.", "weight": 30 },
+        { "location_id": "golden_oak_library", "activity_hint": "Quiet reading time or helping Twilight with heavy books.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sweet_apple_acres", "activity_hint": "Preparing weekend market supplies.", "weight": 70 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Helping with heavy animal feed deliveries.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "location_id": "townhall",
+      "activity_hint": "Running the Apple family market stall.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "hay_burger", "activity_hint": "Having lunch after market day.", "weight": 40 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Returning to help with afternoon chores.", "weight": 30 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Socializing and relaxing after market.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "location_id": "sweet_apple_acres",
+      "activity_hint": "Light farm work and family time.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sweet_apple_acres", "activity_hint": "Relaxing under the apple trees or spending time with family.", "weight": 60 },
+        { "location_id": "schoolhouse", "activity_hint": "Visiting to check on Apple Bloom or help with repairs.", "weight": 20 },
+        { "location_id": "rainbow_dash_outskirt", "activity_hint": "Enjoying outdoor activities and fresh air.", "weight": 20 }
+      ],
+      "priority": 0
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "tag": "sweetiebelle",
+  "name": "Sweetie Belle",
+  "color": "#E6E6FA",
+  "type": "foal",
+  "location": {
+    "id": "cmc_clubhouse",
+    "icon": "icon/icon.png"
+  }
+} 

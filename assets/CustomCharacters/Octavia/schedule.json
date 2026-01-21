@@ -1,0 +1,128 @@
+{
+  "character_tag": "octavia",
+  "default_location": "canterlot_cafe",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Morning practice in the garden's acoustics pavilion.", "weight": 50 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Breakfast meeting with fellow symphony members.", "weight": 30 },
+        { "location_id": "shopping_alley", "activity_hint": "Browsing sheet music at the music shop.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Wednesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Practicing cello in the town hall's music room.", "weight": 50 },
+        { "location_id": "golden_oak_library", "activity_hint": "Studying music theory and borrowing sheet music.", "weight": 30 },
+        { "location_id": "carousel_boutique", "activity_hint": "Fitting for performance attire with Rarity.", "weight": 20 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_throne_room", "activity_hint": "Performing for royal afternoon tea.", "weight": 40 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Street performance for the common ponies.", "weight": 30 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Relaxing with coffee after morning rehearsal.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Garden concert for visiting dignitaries.", "weight": 50 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Chamber music with quartet members.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Wednesday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Rehearsing with the Ponyville ensemble.", "weight": 50 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Taking a break with tea and scones.", "weight": 25 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Playing calming music for the animals.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "location_id": "golden_oak_library",
+      "activity_hint": "Quiet practice and music composition in the library.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "canterlot_plaza", "activity_hint": "Weekend matinee performance.", "weight": 40 },
+        { "location_id": "shopping_alley", "activity_hint": "Shopping for new strings and rosin.", "weight": 30 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Brunch with Canterlot musician friends.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "location_id": "townhall",
+      "activity_hint": "Performing at the weekly Ponyville concert series.",
+      "priority": 1
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Sunday morning recital for early risers.", "weight": 40 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Refined brunch with music patrons.", "weight": 30 },
+        { "location_id": "airship_harbor", "activity_hint": "Welcoming dignitaries with ceremonial music.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "carousel_boutique", "activity_hint": "Social tea time with Rarity.", "weight": 40 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Peaceful afternoon serenade for the animals.", "weight": 30 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Sunday sweets and casual conversation.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Tuesday"],
+      "time_slots": ["evening"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Evening recital for diners.", "weight": 40 },
+        { "location_id": "royal_garden", "activity_hint": "Moonlight sonata practice.", "weight": 30 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Late night jazz session with other musicians.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Wednesday", "Thursday", "Friday"],
+      "time_slots": ["evening"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Evening practice for upcoming performances.", "weight": 40 },
+        { "location_id": "hay_burger", "activity_hint": "Casual dinner with Ponyville friends.", "weight": 30 },
+        { "location_id": "golden_oak_library", "activity_hint": "Quiet evening reading and composition.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday", "Sunday"],
+      "time_slots": ["evening"],
+      "choices": [
+        { "location_id": "canterlot_plaza", "activity_hint": "Weekend evening concerts under the stars.", "weight": 50 },
+        { "location_id": "canterlot_cafe", "activity_hint": "Sophisticated evening entertainment.", "weight": 50 }
+      ],
+      "priority": 0
+    }
+  ]
+}

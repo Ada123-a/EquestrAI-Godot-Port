@@ -1,0 +1,68 @@
+{
+  "character_tag": "carrot",
+  "default_location": "townhall",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Thursday", "Friday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Running her produce stand at the market, enthusiastically selling fresh carrots.", "weight": 70 },
+        { "location_id": "sweet_apple_acres", "activity_hint": "Exchanging farming tips with Applejack and comparing crop yields.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Wednesday"],
+      "time_slots": ["morning"],
+      "location_id": "golden_oak_library",
+      "activity_hint": "Researching new farming techniques and vegetable varieties.",
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "hay_burger", "activity_hint": "Having lunch and promoting her carrot-based menu items.", "weight": 25 },
+        { "location_id": "sugarcube_corner", "activity_hint": "Delivering fresh vegetables for Pinkie's carrot cake recipes.", "weight": 25 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Bringing fresh vegetables for Fluttershy's animal friends.", "weight": 20 },
+        { "location_id": "townhall", "activity_hint": "Cleaning up her market stand and chatting with other vendors.", "weight": 20 },
+        { "location_id": "carousel_boutique", "activity_hint": "Getting her mane styled after a hard day's work.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "townhall", "activity_hint": "Running special weekend deals at her produce stand.", "weight": 60 },
+        { "location_id": "schoolhouse", "activity_hint": "Teaching fillies and colts about healthy eating and gardening.", "weight": 40 }
+      ],
+      "priority": 1
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Participating in the weekly farmers' gathering and swap meet.", "weight": 50 },
+        { "location_id": "rainbow_dash_outskirt", "activity_hint": "Relaxing in the fields after a busy market morning.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "sweet_apple_acres", "activity_hint": "Helping with the Apple family's Sunday harvest tradition.", "weight": 50 },
+        { "location_id": "zecora_hut", "activity_hint": "Trading exotic vegetables for herbal remedies.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "location_id": "hay_burger",
+      "activity_hint": "Enjoying a well-deserved day off with friends and a veggie burger.",
+      "priority": 0
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+    "character_tag": "shy",
+    "default_location": "fluttershy_cottage",
+    "schedules": [
+        {
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "time_slots": ["morning"],
+            "choices": [
+                { "location_id": "fluttershy_cottage", "activity_hint": "Tending to her animal friends.", "weight": 70 },
+                { "location_id": "townhall", "activity_hint": "Picking up feed and supplies from the market.", "weight": 15 },
+                { "location_id": "sweet_apple_acres", "activity_hint": "Helping with the farm animals at the orchard.", "weight": 15 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Monday", "Wednesday"],
+            "time_slots": ["afternoon"],
+            "location_id": "zecora_hut",
+            "activity_hint": "Gathering herbs in the Everfree Forest.",
+            "priority": 0
+        },
+        {
+            "days": ["Tuesday", "Friday"],
+            "time_slots": ["afternoon"],
+            "choices": [
+                { "location_id": "fluttershy_cottage", "activity_hint": "Giving her animal friends their check-ups.", "weight": 70 },
+                { "location_id": "carousel_boutique", "activity_hint": "Visiting Rarity for their weekly spa day.", "weight": 30 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Thursday"],
+            "time_slots": ["afternoon"],
+            "location_id": "townhall",
+            "activity_hint": "Running the weekly animal adoption program.",
+            "priority": 0
+        },
+        {
+            "days": ["Saturday"],
+            "time_slots": ["morning"],
+            "location_id": "zecora_hut",
+            "activity_hint": "Learning about medicinal plants from Zecora.",
+            "priority": 0
+        },
+        {
+            "days": ["Saturday"],
+            "time_slots": ["afternoon"],
+            "location_id": "sugarcube_corner",
+            "activity_hint": "Having tea with friends, albeit nervously.",
+            "priority": 0
+        },
+        {
+            "days": ["Sunday"],
+            "time_slots": ["any"],
+            "location_id": "fluttershy_cottage",
+            "activity_hint": "Relaxing with her animal friends.",
+            "priority": 0
+        }
+    ]
+}

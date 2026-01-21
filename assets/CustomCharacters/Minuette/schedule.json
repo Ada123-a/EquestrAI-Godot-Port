@@ -1,0 +1,108 @@
+{
+  "character_tag": "minuette",
+  "default_location": "canterlot_cafe",
+  "schedules": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Cheerfully greeting everypony over morning coffee.", "weight": 40 },
+        { "location_id": "shopping_alley", "activity_hint": "Browsing dental supplies and chatting with shopkeepers.", "weight": 30 },
+        { "location_id": "canterlot_plaza", "activity_hint": "People-watching and remembering everypony's names.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "donut_joe_shop", "activity_hint": "Having breakfast while warning Joe about cavity risks.", "weight": 50 },
+        { "location_id": "royal_garden", "activity_hint": "Morning jog while enthusiastically greeting other joggers.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Friday"],
+      "time_slots": ["morning"],
+      "location_id": "golden_oak_library",
+      "activity_hint": "Surprise visit to Twilight for their monthly catch-up breakfast.",
+      "priority": 1
+    },
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Afternoon tea with rotating group of friends.", "weight": 25 },
+        { "location_id": "shopping_alley", "activity_hint": "Window shopping and complimenting ponies' smiles.", "weight": 25 },
+        { "location_id": "royal_garden", "activity_hint": "Relaxing walk while striking up friendly conversations.", "weight": 25 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Organizing impromptu dental health awareness talks.", "weight": 25 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Friday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "sugarcube_corner", "activity_hint": "Visiting Pinkie and warning about sugar (while eating cupcakes).", "weight": 50 },
+        { "location_id": "carousel_boutique", "activity_hint": "Giving Rarity teeth whitening tips.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "canterlot_throne_room", "activity_hint": "Attending open court to support dental health initiatives.", "weight": 30 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Weekend brunch with old Canterlot friends.", "weight": 40 },
+        { "location_id": "airship_harbor", "activity_hint": "Welcoming visitors with her infectious enthusiasm.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "golden_oak_library", "activity_hint": "Weekend visit to help Twilight and catch up.", "weight": 40 },
+        { "location_id": "canterlot_plaza", "activity_hint": "Joining weekend festivities and making new friends.", "weight": 30 },
+        { "location_id": "shopping_alley", "activity_hint": "Leisurely shopping and chatting with everypony.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "royal_garden", "activity_hint": "Sunday morning meditation (talking through most of it).", "weight": 40 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Catching up on the week's gossip over coffee.", "weight": 30 },
+        { "location_id": "fluttershy_cottage", "activity_hint": "Teaching proper dental care for animals.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "canterlot_cafe", "activity_hint": "Hosting an informal dentistry advice session.", "weight": 50 },
+        { "location_id": "airship_harbor", "activity_hint": "Seeing friends off with enthusiastic farewells.", "weight": 50 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday", "Sunday"],
+      "time_slots": ["evening"],
+      "choices": [
+        { "location_id": "canterlot_plaza", "activity_hint": "Evening socializing at outdoor cafés.", "weight": 40 },
+        { "location_id": "royal_garden", "activity_hint": "Sunset walks while making evening plans with friends.", "weight": 30 },
+        { "location_id": "donut_joe_shop", "activity_hint": "Late evening decaf and friendly conversation.", "weight": 30 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Friday"],
+      "time_slots": ["evening"],
+      "location_id": "golden_oak_library",
+      "activity_hint": "Extended evening visit with Twilight before heading back to Canterlot.",
+      "priority": 0
+    }
+  ]
+}

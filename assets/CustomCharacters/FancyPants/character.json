@@ -1,0 +1,10 @@
+{
+  "tag": "fancypants",
+  "name": "Fancy Pants",
+  "color": "#3D66B0",
+  "location": {
+    "id": "canterlot_plaza",
+    "icon": "Icon/Icon.png"
+  }
+}
+
